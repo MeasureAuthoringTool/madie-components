@@ -67,6 +67,8 @@ jobs:
 
       - name: Deploy Storybook to GitHub Pages
         run: npm run deploy-storybook -- --source-branch=develop --ci
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
   upload-codacy-coverage:
     name: Upload code coverage to Codacy
