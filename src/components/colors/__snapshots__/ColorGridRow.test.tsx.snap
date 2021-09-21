@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorGridRow should render a single ColorGridRow 1`] = `
+<div>
+  <div
+    class="ColorGridRow__GridWrapper-sc-52zaxc-1 dOWTSc"
+  >
+    <div
+      class="ColorGridRow__Shader-sc-52zaxc-0 kTlaVr"
+    >
+      Blue
+    </div>
+    <div
+      class="ColorGridRow__Shader-sc-52zaxc-0 joiPTG"
+    >
+       
+    </div>
+    <div
+      class="ColorGridRow__Shader-sc-52zaxc-0 fklEaj"
+    >
+       
+    </div>
+    <div
+      class="ColorGridRow__Shader-sc-52zaxc-0 ivyXyx"
+    >
+       
+    </div>
+    <div
+      class="ColorGridRow__Shader-sc-52zaxc-0 kcIDLU"
+    >
+       
+    </div>
+    <div
+      class="ColorGridRow__Shader-sc-52zaxc-0 kWBmpQ"
+    >
+       
+    </div>
+    <div
+      class="ColorGridRow__Shader-sc-52zaxc-0 ErzXx"
+    >
+       
+    </div>
+    <div
+      class="ColorGridRow__Shader-sc-52zaxc-0 jBVEeN"
+    >
+       
+    </div>
+    <div
+      class="ColorGridRow__Shader-sc-52zaxc-0 jbmdNo"
+    >
+       
+    </div>
+    <div
+      class="ColorGridRow__Shader-sc-52zaxc-0 djDjck"
+    >
+       
+    </div>
+  </div>
+</div>
+`;
