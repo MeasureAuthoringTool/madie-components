@@ -65,6 +65,9 @@ jobs:
           name: coverage
           path: coverage/lcov.info
 
+      - name: Deploy Storybook to GitHub Pages
+        run: npm run deploy-storybook -- --source-branch=develop --ci
+
   upload-codacy-coverage:
     name: Upload code coverage to Codacy
     needs: build
