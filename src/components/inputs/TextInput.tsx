@@ -2,9 +2,11 @@ import React from "react";
 import tw, { styled } from "twin.macro";
 import { LabelComponent } from "../labels/Label";
 import { HelperTextComponent } from "../helperText/HelperText";
-import { ExclamationCircleIcon } from "@heroicons/react/solid";
-import { MailIcon } from "@heroicons/react/solid";
-import { QuestionMarkCircleIcon } from "@heroicons/react/solid";
+import {
+  ExclamationCircleIcon,
+  QuestionMarkCircleIcon,
+  MailIcon,
+} from "@heroicons/react/solid";
 
 export interface TextInputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
