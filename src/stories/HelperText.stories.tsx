@@ -11,7 +11,13 @@ const Template: ComponentStory<typeof HelperTextComponent> = (args) => (
   <HelperTextComponent {...args} />
 );
 
-export const defaultText = Template.bind({});
-defaultText.args = {
+export const defaultHelperText = Template.bind({});
+defaultHelperText.args = {
   text: "Help text goes here",
+};
+
+export const errorHelperText = Template.bind({});
+errorHelperText.args = {
+  text: "Error text goes here",
+  isError: true,
 };

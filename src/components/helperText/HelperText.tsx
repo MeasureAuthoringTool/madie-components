@@ -1,16 +1,27 @@
 import React from "react";
-import styled from "styled-components";
-import tw from "twin.macro";
+import tw, { styled } from "twin.macro";
 
-export interface HelperTextProps {
+export interface HelperTextProps
+  extends React.LabelHTMLAttributes<HTMLLabelElement> {
   text: string;
+  isError?: boolean;
 }
 
+interface HandleHelperTextProps {
+  isError?: boolean;
+}
+
+const StyledHelperTextLabel = styled.label<HandleHelperTextProps>(
+  ({ isError }) => [
+    !!isError ? tw`mt-2 text-sm text-red` : tw`mt-2 text-sm text-gray-600`,
+  ]
+);
+
 export function HelperTextComponent(props: HelperTextProps) {
-  const { text, ...args } = props;
+  const { text, isError, ...args } = props;
   return (
-    <p {...args} tw="mt-2 text-sm text-gray-500">
+    <StyledHelperTextLabel {...args} isError={isError}>
       {text}
-    </p>
+    </StyledHelperTextLabel>
   );
 }
