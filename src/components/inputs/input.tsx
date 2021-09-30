@@ -1,52 +1,55 @@
 import React from "react";
 import tw, { styled } from "twin.macro";
+import { ExclamationCircleIcon } from "@heroicons/react/solid";
+import { LabelComponent, LabelProps } from "../labels/Label";
+import { HelperTextComponent, HelperTextProps } from "../helperText/HelperText";
 
-export interface inputProps {
-  backgroundColor?: string;
+export interface InputProps {
   id: string;
   name: string;
   type: string;
+  title: string;
   placeHolder: string;
-  label: string;
-  hasError?: boolean;
-  spanText?: string;
-  helpIcon?: boolean;
-  leftIcon?: boolean;
+  hasError: boolean;
+  label?: LabelProps;
+  helperText?: HelperTextProps;
 }
 
-const StyledInput = styled.input`
-  ${tw`border-gray-900`};
-  ${({ hasError }) => hasError && tw`border-red-600`};
-`;
-// if error add exclarmation marks
-// Green tick mark if it is valid ?
-// check for helpIcon,if yes add qucstion mark
-// if leftIcon is true, then client should send it as a placeholder ?
+interface HandleProps {
+  hasError: boolean;
+}
 
-const StyledErrorLabel = styled.div`
-  ${tw`hidden m-2`}
-  ${({ hasError }) => hasError && tw`block text-red-400`};
-`;
+const StyledInput = styled.input<HandleProps>(({ hasError }) => [
+  tw`border-gray-900`,
+  hasError && tw`border-red-600`,
+]);
 
-export default function inputComponent(props: inputProps) {
+export function InputComponent(props: InputProps) {
+  const labelProps: LabelProps = { ...props.label, inputName: props.name };
   return (
     <div>
-      <div tw="m-2">
-        <label htmlFor={props.name}>{props.label}</label>
-      </div>
-      <div tw="m-2">
+      {props.label ? <LabelComponent {...labelProps}></LabelComponent> : ""}
+      <div tw="m-2 relative">
         <StyledInput
-          tw="w-full border-solid border py-2 px-3.5 rounded"
+          tw="w-full border-solid border py-2 pl-3.5 pr-12 rounded truncate"
           id={props.id}
-          hasError={props.hasError}
           name={props.name}
           type={props.type}
+          title={props.title}
           placeholder={props.placeHolder}
+          hasError={props.hasError}
         />
+        {props.hasError ? (
+          <ExclamationCircleIcon tw="text-red-400 absolute w-6 h-6 top-2 right-3"></ExclamationCircleIcon>
+        ) : (
+          ""
+        )}
       </div>
-      <StyledErrorLabel hasError={props.hasError}>
-        {props.spanText}
-      </StyledErrorLabel>
+      {props.helperText ? (
+        <HelperTextComponent {...props.helperText}></HelperTextComponent>
+      ) : (
+        ""
+      )}
     </div>
   );
 }
