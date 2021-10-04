@@ -2,7 +2,7 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "class", // or 'media' or 'class'
   theme: {
     fontFamily: {
       display: ["Geometria", "system", "sans-serif"],
@@ -14,6 +14,7 @@ module.exports = {
       current: "currentColor",
       black: colors.black,
       white: colors.white,
+      "dark-bg": "#080B1A",
       primary: {
         50: "#d6e4ff",
         100: "#adc8ff",
@@ -108,7 +109,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ["active"],
+    },
   },
   plugins: [],
 };
