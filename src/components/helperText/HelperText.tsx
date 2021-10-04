@@ -1,8 +1,7 @@
 import React from "react";
 import tw, { styled } from "twin.macro";
 
-export interface HelperTextProps
-  extends React.LabelHTMLAttributes<HTMLLabelElement> {
+export interface HelperTextProps extends React.HTMLAttributes<HTMLSpanElement> {
   text: string;
   isError?: boolean;
 }
@@ -11,7 +10,7 @@ interface HandleHelperTextProps {
   isError?: boolean;
 }
 
-const StyledHelperTextLabel = styled.label<HandleHelperTextProps>(
+const StyledHelperTextSpan = styled.span<HandleHelperTextProps>(
   ({ isError }) => [
     !!isError
       ? tw`mt-2 text-sm text-red dark:text-red-300`
@@ -22,8 +21,8 @@ const StyledHelperTextLabel = styled.label<HandleHelperTextProps>(
 export function HelperTextComponent(props: HelperTextProps) {
   const { text, isError, ...args } = props;
   return (
-    <StyledHelperTextLabel {...args} isError={isError}>
+    <StyledHelperTextSpan {...args} isError={isError}>
       {text}
-    </StyledHelperTextLabel>
+    </StyledHelperTextSpan>
   );
 }
