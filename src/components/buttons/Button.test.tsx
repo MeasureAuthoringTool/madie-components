@@ -38,33 +38,23 @@ describe("Button component", () => {
     expect(result).toHaveTextContent(buttonText);
   });
 
-  it("should render a small button with an icon and no text", () => {
-    const { getByTestId } = render(
-      <Button
-        data-testid={testId}
-        icon={CakeIcon}
-        buttonSize={ButtonSizeDefs.sm}
-      />
-    );
-    const result = getByTestId(testId);
-    expect(result).toMatchSnapshot();
-    expect(result.childNodes.length).toEqual(1);
-    assertIcon(result.childNodes[0]);
-  });
+  function testButtonWithNoTextSizes(size: ButtonSize) {
+    it(`should render a ${size} button with an icon and no text`, () => {
+      const { getByTestId } = render(
+        <Button data-testid={testId} icon={CakeIcon} buttonSize={size} />
+      );
+      const result = getByTestId(testId);
+      expect(result).toMatchSnapshot();
+      expect(result.childNodes.length).toEqual(1);
+      assertIcon(result.childNodes[0]);
+    });
+  }
 
-  it("should render a large button with an icon and no text", () => {
-    const { getByTestId } = render(
-      <Button
-        data-testid={testId}
-        icon={CakeIcon}
-        buttonSize={ButtonSizeDefs.lg}
-      />
-    );
-    const result = getByTestId(testId);
-    expect(result).toMatchSnapshot();
-    expect(result.childNodes.length).toEqual(1);
-    assertIcon(result.childNodes[0]);
-  });
+  testButtonWithNoTextSizes(ButtonSizeDefs.xs);
+  testButtonWithNoTextSizes(ButtonSizeDefs.sm);
+  testButtonWithNoTextSizes(ButtonSizeDefs.md);
+  testButtonWithNoTextSizes(ButtonSizeDefs.lg);
+  testButtonWithNoTextSizes(ButtonSizeDefs.xl);
 
   it("should render a button with text and a leading icon", () => {
     const { getByTestId } = render(

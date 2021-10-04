@@ -126,7 +126,7 @@ interface CustomButtonProps {
 const StyledButton = styled.button.attrs<CustomButtonProps, CustomButtonProps>(
   (props: CustomButtonProps) => {
     return {
-      $buttonSize: props.$buttonSize || ButtonSizeDefs.md,
+      $buttonSize: props.$buttonSize,
       type: props.type || "button",
       disabled: props.disabled,
       $variant: props.$variant || ButtonVariantDefs.primary,
