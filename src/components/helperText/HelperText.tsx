@@ -13,7 +13,9 @@ interface HandleHelperTextProps {
 
 const StyledHelperTextLabel = styled.label<HandleHelperTextProps>(
   ({ isError }) => [
-    !!isError ? tw`mt-2 text-sm text-red` : tw`mt-2 text-sm text-gray-600`,
+    !!isError
+      ? tw`mt-2 text-sm text-red dark:text-red-300`
+      : tw`mt-2 text-sm text-gray-600 dark:text-gray-300`,
   ]
 );
 

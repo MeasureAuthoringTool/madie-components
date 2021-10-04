@@ -11,10 +11,15 @@ export function LabelComponent(props: LabelProps) {
   const { isOptional, ...args } = props;
   return (
     <div tw="flex justify-between">
-      <label {...args} tw="block text-sm font-medium text-gray-800">
+      <label
+        {...args}
+        tw="block text-sm font-medium text-gray-800 dark:text-gray-300"
+      >
         {props.text}
       </label>
-      {!!isOptional && <span tw="text-sm text-gray-600">Optional</span>}
+      {!!isOptional && (
+        <span tw="text-sm text-gray-600 dark:text-gray-300">Optional</span>
+      )}
     </div>
   );
 }
