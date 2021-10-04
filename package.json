@@ -31,12 +31,12 @@
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.15.0",
     "@babel/runtime": "^7.15.3",
-    "@storybook/addon-actions": "^6.4.0-alpha.40",
-    "@storybook/addon-essentials": "^6.4.0-alpha.40",
-    "@storybook/addon-links": "^6.4.0-alpha.40",
-    "@storybook/builder-webpack5": "^6.4.0-alpha.40",
-    "@storybook/manager-webpack5": "^6.4.0-alpha.40",
-    "@storybook/react": "^6.4.0-alpha.40",
+    "@storybook/addon-actions": "^6.4.0-beta.3",
+    "@storybook/addon-essentials": "^6.4.0-beta.3",
+    "@storybook/addon-links": "^6.4.0-beta.3",
+    "@storybook/builder-webpack5": "^6.4.0-beta.3",
+    "@storybook/manager-webpack5": "^6.4.0-beta.3",
+    "@storybook/react": "^6.4.0-beta.3",
     "@storybook/storybook-deployer": "^2.8.10",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
@@ -75,12 +75,15 @@
     "webpack-dev-server": "^4.0.0",
     "webpack-merge": "^5.8.0"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "styled-components": "^5.3.1"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.4",
     "single-spa": "^5.9.3",
     "single-spa-react": "^4.3.1",
-    "styled-components": "^5.3.1",
     "system-font-css": "^2.0.2",
     "tailwindcss": "^2.2.9",
     "twin.macro": "^2.7.0"
