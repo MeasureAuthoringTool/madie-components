@@ -12,7 +12,7 @@ export default {
 
 let labelProps = {
   text: "Label",
-  for: "TestInputId",
+  htmlFor: "TestInputId",
   isOptional: false,
 };
 

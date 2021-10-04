@@ -25,8 +25,8 @@ interface HandleTextInputProps {
 const StyledTextInput = styled.input<HandleTextInputProps>(
   ({ hasError, isValidationSuccess, leftIcon, rightIcon }) => [
     !!hasError
-      ? tw`px-4 py-2 pr-10 block w-full border-red-100 dark:border-red-300 text-red-800 dark:text-red-300 placeholder-red-300 focus:outline-none focus:ring-red-100 focus:border-red sm:text-sm border-2 truncate`
-      : tw`px-4 py-2 focus:ring-gray-300 focus:border-gray-300 block w-full sm:text-sm border-gray-300 dark:border-gray-700 border-2 truncate`,
+      ? tw`px-4 py-2 pr-10 block w-full truncate border-2 sm:text-sm text-red-800 placeholder-red-300 border-red-100 focus:outline-none focus:border-red-300 dark:bg-blue-950 dark:border-red-300 dark:text-red-300 dark:focus:border-red-600`
+      : tw`px-4 py-2 block w-full truncate border-2 border-gray-300 focus:ring-2 focus:ring-primary sm:text-sm dark:border-gray-700 dark:focus:ring-2 dark:focus:ring-primary dark:bg-blue-950`,
     !!leftIcon && tw`px-10`,
     (!!rightIcon || isValidationSuccess) && tw`pr-10`,
   ]
