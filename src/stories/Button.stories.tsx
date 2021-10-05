@@ -17,7 +17,7 @@ export default {
     icon: { table: { disable: true } },
     trailingIcon: { table: { disable: true } },
     variant: { table: { disable: true } },
-    shape: { control: "radio", options: ["normal", "round", "circular"] },
+    shape: { control: "radio", options: ["normal", "round"] },
     darkMode: { control: "boolean" },
   },
 } as ComponentMeta<typeof Button>;

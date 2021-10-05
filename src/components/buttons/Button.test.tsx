@@ -1,12 +1,9 @@
 import * as React from "react";
 import { render } from "@testing-library/react";
 import { CakeIcon } from "@heroicons/react/solid";
-import Button, {
-  ButtonShape,
-  ButtonShapeDefs,
-  ButtonVariant,
-  ButtonVariantDefs,
-} from "./Button";
+import Button from "./Button";
+import ButtonShape, { ButtonShapeDefs } from "./ButtonShape";
+import ButtonVariant, { ButtonVariantDefs } from "./ButtonVariant";
 import ButtonIcon, { IconPositionDefs } from "./ButtonIcon";
 import ButtonSize, { ButtonSizeDefs } from "./ButtonSize";
 
