@@ -66,7 +66,7 @@ module.exports = {
         700: "#1d69b7",
         800: "#124a93",
         900: "#0b347a",
-        950: "#20253a",
+        950: "#20253a", // check with Jeremaiah
       },
       yellow: {
         50: "#fff6ce",

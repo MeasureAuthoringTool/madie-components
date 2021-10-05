@@ -1,14 +1,23 @@
 import React from "react";
-import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { TextInputComponent } from "../components/inputs/TextInput";
+import { ComponentMeta, Story } from "@storybook/react";
+import {
+  TextInputComponent,
+  TextInputProps,
+} from "../components/inputs/TextInput";
 import { LabelComponent } from "../components/labels/Label";
 import { HelperTextComponent } from "../components/helperText/HelperText";
 import { QuestionMarkCircleIcon, MailIcon } from "@heroicons/react/solid";
+import { Background, setDarkMode } from "./common/storybook-common";
 
 export default {
   title: "MADiE/TextInput",
   component: TextInputComponent,
+  argTypes: { darkMode: { control: "boolean" } },
 } as ComponentMeta<typeof TextInputComponent>;
+
+interface ThemeableTextInputProps extends TextInputProps {
+  darkMode: boolean;
+}
 
 let labelProps = {
   text: "Label",
@@ -21,9 +30,14 @@ const helperTextProps = {
   isError: false,
 };
 
-const Template: ComponentStory<typeof TextInputComponent> = (args) => (
-  <TextInputComponent {...args} />
-);
+const Template: Story<ThemeableTextInputProps> = ({ darkMode, ...args }) => {
+  setDarkMode(darkMode);
+  return (
+    <Background>
+      <TextInputComponent {...args} />
+    </Background>
+  );
+};
 
 export const defaultTextInputWithLabel = Template.bind({});
 defaultTextInputWithLabel.args = {

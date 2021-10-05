@@ -1,25 +1,36 @@
 import React from "react";
-import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { LabelComponent } from "../components/labels/Label";
+import { ComponentMeta, Story } from "@storybook/react";
+import { LabelComponent, LabelProps } from "../components/labels/Label";
+import { Background, setDarkMode } from "./common/storybook-common";
 
 export default {
   title: "MADiE/Labels",
   component: LabelComponent,
+  argTypes: { darkMode: { control: "boolean" } },
 } as ComponentMeta<typeof LabelComponent>;
 
-const Template: ComponentStory<typeof LabelComponent> = (args) => (
-  <LabelComponent {...args} />
-);
+interface ThemeableLabelProps extends LabelProps {
+  darkMode: boolean;
+}
+
+const Template: Story<ThemeableLabelProps> = ({ darkMode, ...args }) => {
+  setDarkMode(darkMode);
+  return (
+    <Background>
+      <LabelComponent {...args} />
+    </Background>
+  );
+};
 
 export const defaultLabel = Template.bind({});
 defaultLabel.args = {
   text: "Label",
-  for: "inputId",
+  htmlFor: "inputId",
 };
 
 export const labelWithCornerHint = Template.bind({});
 labelWithCornerHint.args = {
   text: "Label",
-  for: "inputId",
-  isOptional: true,
+  htmlFor: "inputId",
+  cornerHint: "Optional",
 };

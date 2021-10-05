@@ -4,11 +4,11 @@ import tw from "twin.macro";
 export interface LabelProps
   extends React.LabelHTMLAttributes<HTMLLabelElement> {
   text: string;
-  isOptional?: boolean;
+  cornerHint?: string;
 }
 
 export function LabelComponent(props: LabelProps) {
-  const { isOptional, ...args } = props;
+  const { cornerHint, ...args } = props;
   return (
     <div tw="flex justify-between">
       <label
@@ -17,8 +17,8 @@ export function LabelComponent(props: LabelProps) {
       >
         {props.text}
       </label>
-      {!!isOptional && (
-        <span tw="text-sm text-gray-600 dark:text-gray-300">Optional</span>
+      {!!cornerHint && (
+        <span tw="text-sm text-gray-600 dark:text-gray-300">{cornerHint}</span>
       )}
     </div>
   );
