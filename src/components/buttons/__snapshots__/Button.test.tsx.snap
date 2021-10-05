@@ -2,9 +2,8 @@
 
 exports[`Button component should allow button shape normal 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 yDOGG"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 gFVNgO jVOdMw bMYDyU"
   data-testid="madie-button"
-  type="button"
 >
   Hello World
 </button>
@@ -12,9 +11,8 @@ exports[`Button component should allow button shape normal 1`] = `
 
 exports[`Button component should allow button shape round 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 jBUMUf"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__RoundPrimaryButtonMd-sc-b30vlr-9 gFVNgO jVOdMw bUOJvl"
   data-testid="madie-button"
-  type="button"
 >
   Hello World
 </button>
@@ -22,9 +20,8 @@ exports[`Button component should allow button shape round 1`] = `
 
 exports[`Button component should allow button variant primary 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 yDOGG"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 gFVNgO jVOdMw bMYDyU"
   data-testid="madie-button"
-  type="button"
 >
   Hello World
 </button>
@@ -32,9 +29,8 @@ exports[`Button component should allow button variant primary 1`] = `
 
 exports[`Button component should allow button variant secondary 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 ftJxzX"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__SecondaryButton-sc-b30vlr-17 ButtonStyles__NormalSecondaryButtonMd-sc-b30vlr-20 gFVNgO jOzGMZ knGBeE"
   data-testid="madie-button"
-  type="button"
 >
   Hello World
 </button>
@@ -42,9 +38,8 @@ exports[`Button component should allow button variant secondary 1`] = `
 
 exports[`Button component should allow button variant white 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 flHNtY"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__WhiteButton-sc-b30vlr-33 ButtonStyles__NormalWhiteButtonMd-sc-b30vlr-36 gFVNgO bWNCiA bWezVO"
   data-testid="madie-button"
-  type="button"
 >
   Hello World
 </button>
@@ -52,9 +47,8 @@ exports[`Button component should allow button variant white 1`] = `
 
 exports[`Button component should allow leading button size lg 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 lAWux"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonLg-sc-b30vlr-5 gFVNgO jVOdMw heTbfM"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
@@ -75,9 +69,8 @@ exports[`Button component should allow leading button size lg 1`] = `
 
 exports[`Button component should allow leading button size md 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 yDOGG"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 gFVNgO jVOdMw bMYDyU"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
@@ -98,9 +91,8 @@ exports[`Button component should allow leading button size md 1`] = `
 
 exports[`Button component should allow leading button size sm 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 hQlzfv"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonSm-sc-b30vlr-3 gFVNgO jVOdMw gAhkfJ"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
@@ -121,9 +113,8 @@ exports[`Button component should allow leading button size sm 1`] = `
 
 exports[`Button component should allow leading button size xl 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 bNOBWx"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonXl-sc-b30vlr-6 gFVNgO jVOdMw gmHDsU"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
@@ -144,9 +135,8 @@ exports[`Button component should allow leading button size xl 1`] = `
 
 exports[`Button component should allow leading button size xs 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 bEefPd"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonXs-sc-b30vlr-2 gFVNgO jVOdMw fILFbz"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
@@ -167,13 +157,12 @@ exports[`Button component should allow leading button size xs 1`] = `
 
 exports[`Button component should allow trailing button size lg 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 lAWux"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonLg-sc-b30vlr-5 gFVNgO jVOdMw heTbfM"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
-    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__TrailingLarge-sc-1x8zj24-8 byjtpt eVhZBu Button__TrailingIcon-sc-1lc4zd6-1 fiOPlW"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__TrailingLarge-sc-1x8zj24-8 byjtpt eVhZBu Button__TrailingIcon-sc-1lc4zd6-0 fJXitb"
     fill="currentColor"
     viewBox="0 0 20 20"
     xmlns="http://www.w3.org/2000/svg"
@@ -190,9 +179,8 @@ exports[`Button component should allow trailing button size lg 1`] = `
 
 exports[`Button component should allow trailing button size lg 2`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 bxbZZS"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__CircularPrimaryButtonLg-sc-b30vlr-15 gFVNgO jVOdMw CrqAy"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
@@ -212,13 +200,12 @@ exports[`Button component should allow trailing button size lg 2`] = `
 
 exports[`Button component should allow trailing button size md 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 yDOGG"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 gFVNgO jVOdMw bMYDyU"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
-    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__TrailingMedium-sc-1x8zj24-7 byjtpt bsbLEq Button__TrailingIcon-sc-1lc4zd6-1 fiOPlW"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__TrailingMedium-sc-1x8zj24-7 byjtpt bsbLEq Button__TrailingIcon-sc-1lc4zd6-0 fJXitb"
     fill="currentColor"
     viewBox="0 0 20 20"
     xmlns="http://www.w3.org/2000/svg"
@@ -235,9 +222,8 @@ exports[`Button component should allow trailing button size md 1`] = `
 
 exports[`Button component should allow trailing button size md 2`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 bxbZZS"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__CircularPrimaryButtonMd-sc-b30vlr-14 gFVNgO jVOdMw eVAgER"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
@@ -257,13 +243,12 @@ exports[`Button component should allow trailing button size md 2`] = `
 
 exports[`Button component should allow trailing button size sm 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 hQlzfv"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonSm-sc-b30vlr-3 gFVNgO jVOdMw gAhkfJ"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
-    class="ButtonIcon__Icon4x4-sc-1x8zj24-0 ButtonIcon__TrailingSmall-sc-1x8zj24-6 kuARTA iOpMzw Button__TrailingIcon-sc-1lc4zd6-1 fiOPlW"
+    class="ButtonIcon__Icon4x4-sc-1x8zj24-0 ButtonIcon__TrailingSmall-sc-1x8zj24-6 kuARTA iOpMzw Button__TrailingIcon-sc-1lc4zd6-0 fJXitb"
     fill="currentColor"
     viewBox="0 0 20 20"
     xmlns="http://www.w3.org/2000/svg"
@@ -280,9 +265,8 @@ exports[`Button component should allow trailing button size sm 1`] = `
 
 exports[`Button component should allow trailing button size sm 2`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 lhXiRG"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__CircularPrimaryButtonSm-sc-b30vlr-13 gFVNgO jVOdMw jWktLd"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
@@ -302,13 +286,12 @@ exports[`Button component should allow trailing button size sm 2`] = `
 
 exports[`Button component should allow trailing button size xl 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 bNOBWx"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonXl-sc-b30vlr-6 gFVNgO jVOdMw gmHDsU"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
-    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__TrailingLarge-sc-1x8zj24-8 byjtpt eVhZBu Button__TrailingIcon-sc-1lc4zd6-1 fiOPlW"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__TrailingLarge-sc-1x8zj24-8 byjtpt eVhZBu Button__TrailingIcon-sc-1lc4zd6-0 fJXitb"
     fill="currentColor"
     viewBox="0 0 20 20"
     xmlns="http://www.w3.org/2000/svg"
@@ -325,9 +308,8 @@ exports[`Button component should allow trailing button size xl 1`] = `
 
 exports[`Button component should allow trailing button size xl 2`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 czXwgx"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__CircularPrimaryButtonXl-sc-b30vlr-16 gFVNgO jVOdMw jeNpnx"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
@@ -347,13 +329,12 @@ exports[`Button component should allow trailing button size xl 2`] = `
 
 exports[`Button component should allow trailing button size xs 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 bEefPd"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonXs-sc-b30vlr-2 gFVNgO jVOdMw fILFbz"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
-    class="ButtonIcon__Icon4x4-sc-1x8zj24-0 ButtonIcon__TrailingSmall-sc-1x8zj24-6 kuARTA iOpMzw Button__TrailingIcon-sc-1lc4zd6-1 fiOPlW"
+    class="ButtonIcon__Icon4x4-sc-1x8zj24-0 ButtonIcon__TrailingSmall-sc-1x8zj24-6 kuARTA iOpMzw Button__TrailingIcon-sc-1lc4zd6-0 fJXitb"
     fill="currentColor"
     viewBox="0 0 20 20"
     xmlns="http://www.w3.org/2000/svg"
@@ -370,9 +351,8 @@ exports[`Button component should allow trailing button size xs 1`] = `
 
 exports[`Button component should allow trailing button size xs 2`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 gJARsY"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__CircularPrimaryButtonXs-sc-b30vlr-12 gFVNgO jVOdMw bOhjNz"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
@@ -392,25 +372,22 @@ exports[`Button component should allow trailing button size xs 2`] = `
 
 exports[`Button component should ignore text on a circular button 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 bxbZZS"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__CircularPrimaryButtonMd-sc-b30vlr-14 gFVNgO jVOdMw eVAgER"
   data-testid="madie-button"
-  type="button"
 />
 `;
 
 exports[`Button component should render a button with no icons and no text 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 yDOGG"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 gFVNgO jVOdMw bMYDyU"
   data-testid="madie-button"
-  type="button"
 />
 `;
 
 exports[`Button component should render a button with text and a leading icon 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 yDOGG"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 gFVNgO jVOdMw bMYDyU"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
@@ -431,13 +408,12 @@ exports[`Button component should render a button with text and a leading icon 1`
 
 exports[`Button component should render a button with text and a trailing icon 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 yDOGG"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 gFVNgO jVOdMw bMYDyU"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
-    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__TrailingMedium-sc-1x8zj24-7 byjtpt bsbLEq Button__TrailingIcon-sc-1lc4zd6-1 fiOPlW"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__TrailingMedium-sc-1x8zj24-7 byjtpt bsbLEq Button__TrailingIcon-sc-1lc4zd6-0 fJXitb"
     fill="currentColor"
     viewBox="0 0 20 20"
     xmlns="http://www.w3.org/2000/svg"
@@ -454,9 +430,8 @@ exports[`Button component should render a button with text and a trailing icon 1
 
 exports[`Button component should render a button with text but no icon 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 yDOGG"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 gFVNgO jVOdMw bMYDyU"
   data-testid="madie-button"
-  type="button"
 >
   Hello World
 </button>
@@ -464,10 +439,9 @@ exports[`Button component should render a button with text but no icon 1`] = `
 
 exports[`Button component should render a disabled button 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 fzudCQ"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__DisabledButton-sc-b30vlr-49 ButtonStyles__NormalDisabledButtonMd-sc-b30vlr-52 gFVNgO fUnOUi gyJEeb"
   data-testid="madie-button"
   disabled=""
-  type="button"
 >
   Hello World
 </button>
@@ -475,9 +449,8 @@ exports[`Button component should render a disabled button 1`] = `
 
 exports[`Button component should render a lg button with an icon and no text 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 lAWux"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonLg-sc-b30vlr-5 gFVNgO jVOdMw heTbfM"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
@@ -497,9 +470,8 @@ exports[`Button component should render a lg button with an icon and no text 1`]
 
 exports[`Button component should render a md button with an icon and no text 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 yDOGG"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 gFVNgO jVOdMw bMYDyU"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
@@ -519,9 +491,8 @@ exports[`Button component should render a md button with an icon and no text 1`]
 
 exports[`Button component should render a sm button with an icon and no text 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 hQlzfv"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonSm-sc-b30vlr-3 gFVNgO jVOdMw gAhkfJ"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
@@ -541,9 +512,8 @@ exports[`Button component should render a sm button with an icon and no text 1`]
 
 exports[`Button component should render a xl button with an icon and no text 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 bNOBWx"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonXl-sc-b30vlr-6 gFVNgO jVOdMw gmHDsU"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
@@ -563,9 +533,8 @@ exports[`Button component should render a xl button with an icon and no text 1`]
 
 exports[`Button component should render a xs button with an icon and no text 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 bEefPd"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonXs-sc-b30vlr-2 gFVNgO jVOdMw fILFbz"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
@@ -585,9 +554,8 @@ exports[`Button component should render a xs button with an icon and no text 1`]
 
 exports[`Button component should render loading text and loading icon when loading 1`] = `
 <button
-  class="Button__StyledButton-sc-1lc4zd6-0 yDOGG"
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 gFVNgO jVOdMw bMYDyU"
   data-testid="madie-button"
-  type="button"
 >
   <svg
     aria-hidden="true"
