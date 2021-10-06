@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInput Component should render default text input with no children 1`] = `
+<input
+  class="TextInput__StyledTextInput-sc-qqk5wt-0 gSbnIy"
+  data-testid="text-input-component"
+  id="TextInputId"
+  name="TextInputName"
+  placeholder="you@example.com"
+  type="text"
+/>
+`;
+
+exports[`TextInput Component should render text input with children components 1`] = `
+<input
+  class="TextInput__StyledTextInput-sc-qqk5wt-0 gSbnIy"
+  data-testid="text-input-component"
+  id="TextInputId"
+  name="TextInputName"
+  placeholder="you@example.com"
+  type="text"
+/>
+`;
+
+exports[`TextInput Component should render text input with children components 2`] = `
+<div
+  class="Label___StyledDiv-sc-goa2uk-0 bFBXIw"
+  data-testid="label-component-test"
+>
+  <label
+    class="Label___StyledLabel-sc-goa2uk-1 lFRji"
+  >
+    Label
+  </label>
+  <span
+    class="Label___StyledSpan-sc-goa2uk-2 ftEbCx"
+  >
+    Optional
+  </span>
+</div>
+`;
+
+exports[`TextInput Component should render text input with children components 3`] = `
+<span
+  class="HelperText__StyledHelperTextSpan-sc-4k037i-0 eONucR"
+  data-testid="helper-text-component-test"
+>
+  Help text goes here
+</span>
+`;
+
+exports[`TextInput Component should render text input with error 1`] = `
+<div
+  class="TextInput___StyledDiv6-sc-qqk5wt-6 bsGZCf"
+  data-testid="error-test-id"
+>
+  <svg
+    aria-hidden="true"
+    class="TextInput___StyledExclamationCircleIcon-sc-qqk5wt-7 cduzhr"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+</div>
+`;
+
+exports[`TextInput Component should render text input with left icon and right icon 1`] = `
+<svg
+  data-testid="leftIconTest"
+  fill="currentColor"
+  viewBox="0 0 20 20"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+  />
+  <path
+    d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+  />
+</svg>
+`;
+
+exports[`TextInput Component should render text input with left icon and right icon 2`] = `
+<svg
+  data-testid="rightIconTest"
+  fill="currentColor"
+  viewBox="0 0 20 20"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    clip-rule="evenodd"
+    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
+    fill-rule="evenodd"
+  />
+</svg>
+`;
+
+exports[`TextInput Component should render text input with success validation 1`] = `
+<div
+  class="TextInput___StyledDiv7-sc-qqk5wt-8 ctDbks"
+  data-testid="success-test-id"
+>
+  <svg
+    aria-hidden="true"
+    class="TextInput___StyledCheckCircleIcon-sc-qqk5wt-9 eeHUXR"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+      fill-rule="evenodd"
+    />
+  </svg>
+</div>
+`;

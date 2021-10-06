@@ -70,7 +70,10 @@ export function TextInputComponent(props: TextInputProps) {
           </div>
         )}
         {!!hasError && (
-          <div tw="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+          <div
+            tw="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none"
+            data-testid="error-test-id"
+          >
             <ExclamationCircleIcon
               tw="h-5 w-5 text-red dark:text-red-300"
               aria-hidden="true"
@@ -78,7 +81,10 @@ export function TextInputComponent(props: TextInputProps) {
           </div>
         )}
         {!!isValidationSuccess && (
-          <div tw="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+          <div
+            tw="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none"
+            data-testid="success-test-id"
+          >
             <CheckCircleIcon
               tw="h-5 w-5 text-green dark:text-green-200"
               aria-hidden="true"

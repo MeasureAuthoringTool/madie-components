@@ -22,7 +22,7 @@ interface ThemeableTextInputProps extends TextInputProps {
 let labelProps = {
   text: "Label",
   htmlFor: "TestInputId",
-  isOptional: false,
+  cornerHint: "",
 };
 
 const helperTextProps = {
@@ -48,8 +48,7 @@ defaultTextInputWithLabel.args = {
   placeholder: "you@example.com",
 };
 
-labelProps.isOptional = true;
-
+labelProps.cornerHint = "Optional";
 export const textInputWithCornerHint = Template.bind({});
 textInputWithCornerHint.args = {
   children: <LabelComponent {...labelProps} />,
@@ -67,7 +66,7 @@ textInputWithNoLabel.args = {
   placeholder: "you@example.com",
 };
 
-labelProps.isOptional = false;
+labelProps.cornerHint = "";
 export const textInputWithLeadingIcon = Template.bind({});
 textInputWithLeadingIcon.args = {
   children: <LabelComponent {...labelProps} />,

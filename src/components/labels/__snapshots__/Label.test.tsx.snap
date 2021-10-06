@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label Component should render a Label with corner hint 1`] = `
+<div
+  class="Label___StyledDiv-sc-goa2uk-0 bFBXIw"
+  data-testid="label-component-test"
+>
+  <label
+    class="Label___StyledLabel-sc-goa2uk-1 lFRji"
+  >
+    Label
+  </label>
+  <span
+    class="Label___StyledSpan-sc-goa2uk-2 ftEbCx"
+  >
+    Optional
+  </span>
+</div>
+`;
+
+exports[`Label Component should render a Label with no corner hint 1`] = `
+<div
+  class="Label___StyledDiv-sc-goa2uk-0 bFBXIw"
+  data-testid="label-component-test"
+>
+  <label
+    class="Label___StyledLabel-sc-goa2uk-1 lFRji"
+  >
+    Label
+  </label>
+</div>
+`;

@@ -10,7 +10,7 @@ export interface LabelProps
 export function LabelComponent(props: LabelProps) {
   const { cornerHint, ...args } = props;
   return (
-    <div tw="flex justify-between">
+    <div tw="flex justify-between" data-testid="label-component-test">
       <label
         {...args}
         tw="block text-sm font-medium text-gray-800 dark:text-gray-300"
