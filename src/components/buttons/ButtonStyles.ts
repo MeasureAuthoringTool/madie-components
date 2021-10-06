@@ -16,7 +16,7 @@ const BaseButton = tw.button`
   focus:ring-2
   focus:ring-offset-2
   focus:ring-primary-500
-  dark:focus:ring-offset-dark-bg
+  dark:focus:ring-offset-gray-975
 `;
 
 const PrimaryButton = tw(BaseButton)`

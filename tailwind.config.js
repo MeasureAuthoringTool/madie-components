@@ -14,7 +14,6 @@ module.exports = {
       current: "currentColor",
       black: colors.black,
       white: colors.white,
-      "dark-bg": "#080B1A",
       primary: {
         50: "#d6e4ff",
         100: "#adc8ff",
@@ -105,6 +104,8 @@ module.exports = {
         700: "#4a5681",
         800: "#2f3a68",
         900: "#1c2556",
+        950: "#20253a",
+        975: "#080B1A",
       },
     },
   },
