@@ -72,7 +72,7 @@ exports[`TextInput Component should render text input with error 1`] = `
 
 exports[`TextInput Component should render text input with left icon and right icon 1`] = `
 <svg
-  data-testid="leftIconTest"
+  data-testid="left-icon-test"
   fill="currentColor"
   viewBox="0 0 20 20"
   xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +88,7 @@ exports[`TextInput Component should render text input with left icon and right i
 
 exports[`TextInput Component should render text input with left icon and right icon 2`] = `
 <svg
-  data-testid="rightIconTest"
+  data-testid="right-icon-test"
   fill="currentColor"
   viewBox="0 0 20 20"
   xmlns="http://www.w3.org/2000/svg"
