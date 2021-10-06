@@ -2,7 +2,7 @@
 
 exports[`TextInput Component should render default text input with no children 1`] = `
 <input
-  class="TextInput__defaultTextInput-sc-qqk5wt-0 TextInput__textInputWithRightIcon-sc-qqk5wt-3 gOONwc eDwNUo"
+  class="TextInput__defaultTextInput-sc-qqk5wt-0 TextInput__styleInput-sc-qqk5wt-1 TextInput__styleInput-sc-qqk5wt-2 TextInput__styleInput-sc-qqk5wt-3 gOONwc iqqeeC gzvCKe eHZqOs"
   data-testid="text-input-component"
   id="TextInputId"
   name="TextInputName"
@@ -13,7 +13,7 @@ exports[`TextInput Component should render default text input with no children 1
 
 exports[`TextInput Component should render text input with children components 1`] = `
 <input
-  class="TextInput__defaultTextInput-sc-qqk5wt-0 TextInput__textInputWithRightIcon-sc-qqk5wt-3 gOONwc eDwNUo"
+  class="TextInput__defaultTextInput-sc-qqk5wt-0 TextInput__styleInput-sc-qqk5wt-1 TextInput__styleInput-sc-qqk5wt-2 TextInput__styleInput-sc-qqk5wt-3 gOONwc iqqeeC gzvCKe eHZqOs"
   data-testid="text-input-component"
   id="TextInputId"
   name="TextInputName"

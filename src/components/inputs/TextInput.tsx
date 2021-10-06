@@ -1,5 +1,5 @@
 import React from "react";
-import tw, { styled } from "twin.macro";
+import tw from "twin.macro";
 import { LabelComponent } from "../labels/Label";
 import { HelperTextComponent } from "../helperText/HelperText";
 import { ExclamationCircleIcon, CheckCircleIcon } from "@heroicons/react/solid";
@@ -15,19 +15,24 @@ export interface TextInputProps
   rightIcon?: IconType;
 }
 
-interface HandleTextInputProps {
-  hasError?: boolean;
-  isValidationSuccess?: boolean;
-  leftIcon?: IconType;
-  rightIcon?: IconType;
-}
-
 const defaultTextInput = tw.input`px-4 py-2 block w-full truncate border-2 border-gray-300 focus:ring-2 focus:ring-primary sm:text-sm dark:border-gray-700 dark:focus:ring-2 dark:focus:ring-primary dark:bg-blue-950`;
-const errorTextInput = tw(
-  defaultTextInput
-)`pr-10 text-red-800 placeholder-red-300 border-red-100 focus:outline-none focus:border-red-300 dark:bg-blue-950 dark:border-red-300 dark:text-red-300 dark:focus:border-red-600`;
-const textInputWithLeftIcon = tw(defaultTextInput)`px-10`;
-const textInputWithRightIcon = tw(defaultTextInput)`pr-10`;
+
+function getStyledInput(props: TextInputProps) {
+  let styleInput = defaultTextInput;
+
+  if (!!props.leftIcon) {
+    styleInput = tw(styleInput)`pl-10`;
+  }
+  if (!!props.rightIcon || !!props.isValidationSuccess) {
+    styleInput = tw(styleInput)`pr-10`;
+  }
+  if (!!props.hasError) {
+    styleInput = tw(
+      styleInput
+    )`pr-10 text-red-800 placeholder-red-300 border-red-100 focus:outline-none focus:border-red-300 dark:bg-blue-950 dark:border-red-300 dark:text-red-300 dark:focus:border-red-600`;
+  }
+  return styleInput;
+}
 
 export function TextInputComponent(props: TextInputProps) {
   const {
@@ -39,10 +44,7 @@ export function TextInputComponent(props: TextInputProps) {
     ...args
   } = props;
 
-  let StyledTextInput = defaultTextInput;
-  !!hasError ? (StyledTextInput = errorTextInput) : undefined;
-  !!leftIcon ? (StyledTextInput = textInputWithLeftIcon) : undefined;
-  !!rightIcon ? (StyledTextInput = textInputWithRightIcon) : undefined;
+  let StyledTextInput = getStyledInput(props) || defaultTextInput;
 
   return (
     <div>
