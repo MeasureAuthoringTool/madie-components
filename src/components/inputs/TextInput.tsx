@@ -15,7 +15,7 @@ export interface TextInputProps
   rightIcon?: IconType;
 }
 
-const defaultTextInput = tw.input`px-4 py-2 block w-full truncate border-2 border-gray-300 focus:ring-2 focus:ring-primary sm:text-sm dark:border-gray-700 dark:focus:ring-2 dark:focus:ring-primary dark:bg-blue-950`;
+const defaultTextInput = tw.input`px-4 py-2 block w-full truncate border-2 border-gray-300 focus:ring-2 focus:ring-primary sm:text-sm dark:border-gray-700 dark:focus:ring-2 dark:focus:ring-primary dark:bg-gray-950`;
 
 function getStyledInput(props: TextInputProps) {
   let styleInput = defaultTextInput;
@@ -29,7 +29,7 @@ function getStyledInput(props: TextInputProps) {
   if (!!props.hasError) {
     styleInput = tw(
       styleInput
-    )`pr-10 text-red-800 placeholder-red-300 border-red-100 focus:outline-none focus:border-red-300 dark:bg-blue-950 dark:border-red-300 dark:text-red-300 dark:focus:border-red-600`;
+    )`pr-10 text-red-800 placeholder-red-300 border-red-100 focus:outline-none focus:border-red-300 dark:bg-gray-950 dark:border-red-300 dark:text-red-300 dark:focus:border-red-600`;
   }
   return styleInput;
 }
