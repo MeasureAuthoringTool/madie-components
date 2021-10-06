@@ -2,7 +2,7 @@
 
 exports[`TextInput Component should render default text input with no children 1`] = `
 <input
-  class="TextInput__StyledTextInput-sc-qqk5wt-0 gSbnIy"
+  class="TextInput__defaultTextInput-sc-qqk5wt-0 TextInput__textInputWithRightIcon-sc-qqk5wt-3 gOONwc eDwNUo"
   data-testid="text-input-component"
   id="TextInputId"
   name="TextInputName"
@@ -13,7 +13,7 @@ exports[`TextInput Component should render default text input with no children 1
 
 exports[`TextInput Component should render text input with children components 1`] = `
 <input
-  class="TextInput__StyledTextInput-sc-qqk5wt-0 gSbnIy"
+  class="TextInput__defaultTextInput-sc-qqk5wt-0 TextInput__textInputWithRightIcon-sc-qqk5wt-3 gOONwc eDwNUo"
   data-testid="text-input-component"
   id="TextInputId"
   name="TextInputName"
@@ -51,12 +51,12 @@ exports[`TextInput Component should render text input with children components 3
 
 exports[`TextInput Component should render text input with error 1`] = `
 <div
-  class="TextInput___StyledDiv6-sc-qqk5wt-6 bsGZCf"
+  class="TextInput___StyledDiv6-sc-qqk5wt-9 jtUJQY"
   data-testid="error-test-id"
 >
   <svg
     aria-hidden="true"
-    class="TextInput___StyledExclamationCircleIcon-sc-qqk5wt-7 cduzhr"
+    class="TextInput___StyledExclamationCircleIcon-sc-qqk5wt-10 DPJDN"
     fill="currentColor"
     viewBox="0 0 20 20"
     xmlns="http://www.w3.org/2000/svg"
@@ -103,12 +103,12 @@ exports[`TextInput Component should render text input with left icon and right i
 
 exports[`TextInput Component should render text input with success validation 1`] = `
 <div
-  class="TextInput___StyledDiv7-sc-qqk5wt-8 ctDbks"
+  class="TextInput___StyledDiv7-sc-qqk5wt-11 huDpMk"
   data-testid="success-test-id"
 >
   <svg
     aria-hidden="true"
-    class="TextInput___StyledCheckCircleIcon-sc-qqk5wt-9 eeHUXR"
+    class="TextInput___StyledCheckCircleIcon-sc-qqk5wt-12 sxCsD"
     fill="currentColor"
     viewBox="0 0 20 20"
     xmlns="http://www.w3.org/2000/svg"

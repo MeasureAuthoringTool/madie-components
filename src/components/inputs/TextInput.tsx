@@ -22,15 +22,12 @@ interface HandleTextInputProps {
   rightIcon?: IconType;
 }
 
-const StyledTextInput = styled.input<HandleTextInputProps>(
-  ({ hasError, isValidationSuccess, leftIcon, rightIcon }) => [
-    !!hasError
-      ? tw`px-4 py-2 pr-10 block w-full truncate border-2 sm:text-sm text-red-800 placeholder-red-300 border-red-100 focus:outline-none focus:border-red-300 dark:bg-blue-950 dark:border-red-300 dark:text-red-300 dark:focus:border-red-600`
-      : tw`px-4 py-2 block w-full truncate border-2 border-gray-300 focus:ring-2 focus:ring-primary sm:text-sm dark:border-gray-700 dark:focus:ring-2 dark:focus:ring-primary dark:bg-blue-950`,
-    !!leftIcon && tw`px-10`,
-    (!!rightIcon || isValidationSuccess) && tw`pr-10`,
-  ]
-);
+const defaultTextInput = tw.input`px-4 py-2 block w-full truncate border-2 border-gray-300 focus:ring-2 focus:ring-primary sm:text-sm dark:border-gray-700 dark:focus:ring-2 dark:focus:ring-primary dark:bg-blue-950`;
+const errorTextInput = tw(
+  defaultTextInput
+)`pr-10 text-red-800 placeholder-red-300 border-red-100 focus:outline-none focus:border-red-300 dark:bg-blue-950 dark:border-red-300 dark:text-red-300 dark:focus:border-red-600`;
+const textInputWithLeftIcon = tw(defaultTextInput)`px-10`;
+const textInputWithRightIcon = tw(defaultTextInput)`pr-10`;
 
 export function TextInputComponent(props: TextInputProps) {
   const {
@@ -41,6 +38,12 @@ export function TextInputComponent(props: TextInputProps) {
     rightIcon,
     ...args
   } = props;
+
+  let StyledTextInput = defaultTextInput;
+  !!hasError ? (StyledTextInput = errorTextInput) : undefined;
+  !!leftIcon ? (StyledTextInput = textInputWithLeftIcon) : undefined;
+  !!rightIcon ? (StyledTextInput = textInputWithRightIcon) : undefined;
+
   return (
     <div>
       {React.Children.map(children, (child) => {
@@ -55,13 +58,7 @@ export function TextInputComponent(props: TextInputProps) {
           </div>
         )}
 
-        <StyledTextInput
-          {...args}
-          hasError={hasError}
-          isValidationSuccess={isValidationSuccess}
-          leftIcon={leftIcon}
-          rightIcon={rightIcon}
-        />
+        <StyledTextInput {...args} />
         {!!rightIcon && (
           <div tw="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
             <div tw="h-5 w-5 text-gray-300" aria-hidden="true">
