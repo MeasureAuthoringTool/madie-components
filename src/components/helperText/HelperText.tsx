@@ -6,23 +6,13 @@ export interface HelperTextProps extends React.HTMLAttributes<HTMLSpanElement> {
   isError?: boolean;
 }
 
-interface HandleHelperTextProps {
-  isError?: boolean;
-}
-
-const StyledHelperTextSpan = styled.span<HandleHelperTextProps>(
-  ({ isError }) => [
-    !!isError
-      ? tw`mt-2 text-sm text-red dark:text-red-300`
-      : tw`mt-2 text-sm text-gray-600 dark:text-gray-300`,
-  ]
-);
+const defaultHelperText = tw.span`mt-2 text-sm text-gray-600 dark:text-gray-300`;
+const errorHelperText = tw(defaultHelperText)`text-red dark:text-red-300`;
 
 export function HelperTextComponent(props: HelperTextProps) {
   const { text, isError, ...args } = props;
-  return (
-    <StyledHelperTextSpan {...args} isError={isError}>
-      {text}
-    </StyledHelperTextSpan>
-  );
+
+  const StyledHelperTextSpan = !!isError ? errorHelperText : defaultHelperText;
+
+  return <StyledHelperTextSpan {...args}>{text}</StyledHelperTextSpan>;
 }

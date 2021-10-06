@@ -2,7 +2,7 @@
 
 exports[`Helper Text Component should render a default helper text 1`] = `
 <span
-  class="HelperText__StyledHelperTextSpan-sc-4k037i-0 eONucR"
+  class="HelperText__defaultHelperText-sc-4k037i-0 iJGOzB"
   data-testid="helper-text-component-test"
 >
   Help text goes here
@@ -11,7 +11,7 @@ exports[`Helper Text Component should render a default helper text 1`] = `
 
 exports[`Helper Text Component should render a error helper text 1`] = `
 <span
-  class="HelperText__StyledHelperTextSpan-sc-4k037i-0 eziIXz"
+  class="HelperText__defaultHelperText-sc-4k037i-0 HelperText__errorHelperText-sc-4k037i-1 iJGOzB ewRCez"
   data-testid="helper-text-component-test"
 >
   Error text goes here
