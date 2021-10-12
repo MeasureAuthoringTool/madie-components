@@ -15,20 +15,7 @@ export interface TextInputProps
   rightIcon?: IconType;
 }
 
-const defaultTextInput = tw.input`
-  px-4 py-2
-  block
-  w-full
-  truncate
-  border
-  rounded-md
-  border-gray-300
-  focus:outline-blue
-  sm:text-sm
-  dark:border-gray-700
-  dark:focus:outline-blue
-  dark:bg-gray-950
-`;
+const defaultTextInput = tw.input`px-4 py-2 block w-full truncate border rounded-md border-gray-300 focus:ring-2 focus:ring-primary sm:text-sm dark:border-gray-700 dark:focus:ring-2 dark:focus:ring-primary dark:bg-gray-950`;
 
 function getStyledInput(props: TextInputProps) {
   let styleInput = defaultTextInput;
@@ -40,15 +27,9 @@ function getStyledInput(props: TextInputProps) {
     styleInput = tw(styleInput)`pr-10`;
   }
   if (!!props.hasError) {
-    styleInput = tw(styleInput)`pr-10 
-    text-red-800
-    placeholder-red-300
-    border-red-100
-    focus:outline-red-300
-    dark:bg-gray-950
-    dark:border-red-300
-    dark:text-red-300
-    dark:focus:outline-red-600`;
+    styleInput = tw(
+      styleInput
+    )`pr-10 text-red-800 placeholder-red-300 border-red-100 focus:outline-none focus:border-red-300 dark:bg-gray-950 dark:border-red-300 dark:text-red-300 dark:focus:border-red-600`;
   }
   return styleInput;
 }
@@ -70,7 +51,7 @@ export function TextInputComponent(props: TextInputProps) {
       {React.Children.map(children, (child) => {
         if (child.type === LabelComponent) return child;
       })}
-      <div tw="mt-1 relative rounded-md shadow-sm">
+      <div tw="mt-1 relative rounded-md shadow-sm overflow-hidden">
         {!!leftIcon && (
           <div tw="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
             <div tw="h-5 w-5 text-gray-300" aria-hidden="true">
