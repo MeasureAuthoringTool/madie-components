@@ -15,7 +15,7 @@ export interface TextInputProps
   rightIcon?: IconType;
 }
 
-const defaultTextInput = tw.input`px-4 py-2 block w-full truncate border-2 border-gray-300 focus:ring-2 focus:ring-primary sm:text-sm dark:border-gray-700 dark:focus:ring-2 dark:focus:ring-primary dark:bg-gray-950`;
+const defaultTextInput = tw.input`px-4 py-2 block w-full truncate border rounded-md border-gray-300 focus:ring-2 focus:ring-primary sm:text-sm dark:border-gray-700 dark:focus:ring-2 dark:focus:ring-primary dark:bg-gray-950`;
 
 function getStyledInput(props: TextInputProps) {
   let styleInput = defaultTextInput;
