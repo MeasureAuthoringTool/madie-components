@@ -108,6 +108,15 @@ module.exports = {
         975: "#080B1A",
       },
     },
+    extend: {
+      outline: {
+        blue: "2px solid #3366FF",
+        red: {
+          300: "2px solid #ff7461",
+          600: "2px solid #db202a",
+        },
+      },
+    },
   },
   variants: {
     extend: {
