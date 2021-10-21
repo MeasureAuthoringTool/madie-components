@@ -1,3 +1,5 @@
+const { format } = require("prettier");
+
 module.exports = {
   plugins: {
     tailwindcss: {},
