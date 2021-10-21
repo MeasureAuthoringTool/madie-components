@@ -6,7 +6,7 @@
   ],
   "license": "CC0-1.0",
   "scripts": {
-    "start": "webpack serve --port 8503",
+    "start": "webpack serve --port 8504",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
     "analyze": "webpack --mode=production --env analyze",
@@ -23,6 +23,7 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "devDependencies": {
+    "@headlessui/react": "^1.4.1",
     "@babel/core": "^7.15.0",
     "@babel/eslint-parser": "^7.15.0",
     "@babel/plugin-transform-react-jsx": "^7.14.9",
