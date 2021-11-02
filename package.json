@@ -23,7 +23,6 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "devDependencies": {
-    "@headlessui/react": "^1.4.1",
     "@babel/core": "^7.15.0",
     "@babel/eslint-parser": "^7.15.0",
     "@babel/plugin-transform-react-jsx": "^7.14.9",
@@ -32,6 +31,7 @@
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.15.0",
     "@babel/runtime": "^7.15.3",
+    "@headlessui/react": "^1.4.1",
     "@storybook/addon-actions": "^6.4.0-beta.3",
     "@storybook/addon-essentials": "^6.4.0-beta.3",
     "@storybook/addon-links": "^6.4.0-beta.3",
@@ -85,6 +85,8 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.4",
+    "@tailwindcss/forms": "^0.3.4",
+    "lodash": "^4.17.21",
     "single-spa": "^5.9.3",
     "single-spa-react": "^4.3.1",
     "system-font-css": "^2.0.2",

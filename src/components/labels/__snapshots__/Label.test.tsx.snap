@@ -2,16 +2,17 @@
 
 exports[`Label Component should render a Label with corner hint 1`] = `
 <div
-  class="Label___StyledDiv-sc-goa2uk-0 bFBXIw"
   data-testid="label-component-test"
+  tw="flex justify-between"
 >
   <label
-    class="Label___StyledLabel-sc-goa2uk-1 lFRji"
+    text="Label"
+    tw="block text-sm font-medium text-gray-800 dark:text-gray-300"
   >
     Label
   </label>
   <span
-    class="Label___StyledSpan-sc-goa2uk-2 ftEbCx"
+    tw="text-sm text-gray-600 dark:text-gray-300"
   >
     Optional
   </span>
@@ -20,11 +21,12 @@ exports[`Label Component should render a Label with corner hint 1`] = `
 
 exports[`Label Component should render a Label with no corner hint 1`] = `
 <div
-  class="Label___StyledDiv-sc-goa2uk-0 bFBXIw"
   data-testid="label-component-test"
+  tw="flex justify-between"
 >
   <label
-    class="Label___StyledLabel-sc-goa2uk-1 lFRji"
+    text="Label"
+    tw="block text-sm font-medium text-gray-800 dark:text-gray-300"
   >
     Label
   </label>

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { render } from "@testing-library/react";
-import { HelperTextComponent } from "./HelperText";
+import HelperText from "./HelperText";
 
 const testId = "helper-text-component-test";
 const defaultText = "Help text goes here";
@@ -9,7 +9,7 @@ const errorText = "Error text goes here";
 describe("Helper Text Component", () => {
   it("should render a default helper text", () => {
     const { getByTestId } = render(
-      <HelperTextComponent data-testid={testId} text={defaultText} />
+      <HelperText data-testid={testId} text={defaultText} />
     );
     const helperText = getByTestId(testId);
     expect(helperText).toBeInTheDocument();
@@ -19,11 +19,7 @@ describe("Helper Text Component", () => {
 
   it("should render a error helper text", () => {
     const { getByTestId } = render(
-      <HelperTextComponent
-        data-testid={testId}
-        text={errorText}
-        isError={true}
-      />
+      <HelperText data-testid={testId} text={errorText} isError={true} />
     );
     const helperText = getByTestId(testId);
     expect(helperText).toBeInTheDocument();

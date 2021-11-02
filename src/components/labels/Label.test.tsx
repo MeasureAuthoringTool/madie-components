@@ -1,6 +1,6 @@
 import * as React from "react";
 import { render } from "@testing-library/react";
-import { LabelComponent } from "./Label";
+import Label from "./Label";
 
 const testId = "label-component-test";
 const labelText = "Label";
@@ -8,7 +8,7 @@ const cornerHint = "Optional";
 
 describe("Label Component", () => {
   it("should render a Label with no corner hint", () => {
-    const { getByTestId } = render(<LabelComponent text={labelText} />);
+    const { getByTestId } = render(<Label text={labelText} />);
     const label = getByTestId(testId);
     expect(label).toBeInTheDocument();
     expect(label).toHaveTextContent(labelText);
@@ -17,7 +17,7 @@ describe("Label Component", () => {
 
   it("should render a Label with corner hint", () => {
     const { getByTestId } = render(
-      <LabelComponent text={labelText} cornerHint={cornerHint} />
+      <Label text={labelText} cornerHint={cornerHint} />
     );
     const label = getByTestId(testId);
     expect(label).toBeInTheDocument();
