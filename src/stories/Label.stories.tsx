@@ -1,13 +1,13 @@
 import React from "react";
 import { ComponentMeta, Story } from "@storybook/react";
-import { LabelComponent, LabelProps } from "../components/labels/Label";
+import Label, { LabelProps } from "../components/labels/Label";
 import { Background, setDarkMode } from "./common/storybook-common";
 
 export default {
   title: "MADiE/Labels",
-  component: LabelComponent,
+  component: Label,
   argTypes: { darkMode: { control: "boolean" } },
-} as ComponentMeta<typeof LabelComponent>;
+} as ComponentMeta<typeof Label>;
 
 interface ThemeableLabelProps extends LabelProps {
   darkMode: boolean;
@@ -17,7 +17,7 @@ const Template: Story<ThemeableLabelProps> = ({ darkMode, ...args }) => {
   setDarkMode(darkMode);
   return (
     <Background>
-      <LabelComponent {...args} />
+      <Label {...args} />
     </Background>
   );
 };

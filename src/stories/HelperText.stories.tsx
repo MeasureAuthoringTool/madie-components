@@ -1,16 +1,15 @@
 import React from "react";
-import { ComponentMeta, ComponentStory, Story } from "@storybook/react";
-import {
-  HelperTextComponent,
+import { ComponentMeta, Story } from "@storybook/react";
+import HelperText, {
   HelperTextProps,
 } from "../components/helperText/HelperText";
 import { Background, setDarkMode } from "./common/storybook-common";
 
 export default {
   title: "MADiE/HelperText",
-  component: HelperTextComponent,
+  component: HelperText,
   argTypes: { darkMode: { control: "boolean" } },
-} as ComponentMeta<typeof HelperTextComponent>;
+} as ComponentMeta<typeof HelperText>;
 
 interface ThemeableHelperTextProps extends HelperTextProps {
   darkMode: boolean;
@@ -20,7 +19,7 @@ const Template: Story<ThemeableHelperTextProps> = ({ darkMode, ...args }) => {
   setDarkMode(darkMode);
   return (
     <Background>
-      <HelperTextComponent {...args} />
+      <HelperText {...args} />
     </Background>
   );
 };

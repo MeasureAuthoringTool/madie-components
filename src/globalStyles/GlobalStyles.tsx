@@ -7,7 +7,8 @@ import DejaVuSansMono from "../assets/fonts/DejaVuSansMono/DejaVuSansMono";
 import "system-font-css";
 
 // Any customization to the global styles would go here
-const CustomStyles = createGlobalStyle``;
+const CustomStyles = createGlobalStyle`
+`;
 
 const GlobalStyles = () => (
   <>

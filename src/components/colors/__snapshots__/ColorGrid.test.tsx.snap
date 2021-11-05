@@ -3,382 +3,382 @@
 exports[`ColorGrid should render a ColorGrid, a collection of ColorGridRows 1`] = `
 <div>
   <section
-    class="ColorGrid__Wrapper-sc-am05eg-0 lnqRnS"
+    class="ColorGrid__Wrapper-sc-am05eg-0 eIHNMA"
   >
     <div
-      class="ColorGridRow__GridWrapper-sc-52zaxc-1 dOWTSc"
+      class="ColorGridRow__GridWrapper-sc-52zaxc-1 XIwEi"
     >
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 jyWZQG"
+        class="ColorGridRow__Shader-sc-52zaxc-0 gBspfM"
       >
         Primary
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 eYNpsA"
+        class="ColorGridRow__Shader-sc-52zaxc-0 fRbkCG"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 htQtcp"
+        class="ColorGridRow__Shader-sc-52zaxc-0 kfDsSv"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 gYfXdc"
+        class="ColorGridRow__Shader-sc-52zaxc-0 kuwSlW"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 cMdgwk"
+        class="ColorGridRow__Shader-sc-52zaxc-0 iKBraq"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 dklQHb"
+        class="ColorGridRow__Shader-sc-52zaxc-0 dAgdAF"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 PqefF"
+        class="ColorGridRow__Shader-sc-52zaxc-0 jMrTBv"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 dqqbUf"
+        class="ColorGridRow__Shader-sc-52zaxc-0 fGVYMx"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 hQDfCS"
+        class="ColorGridRow__Shader-sc-52zaxc-0 kOZnQw"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 gsQUoG"
+        class="ColorGridRow__Shader-sc-52zaxc-0 bTmSvw"
       >
          
       </div>
     </div>
     <div
-      class="ColorGridRow__GridWrapper-sc-52zaxc-1 dOWTSc"
+      class="ColorGridRow__GridWrapper-sc-52zaxc-1 XIwEi"
     >
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 bTxmxZ"
+        class="ColorGridRow__Shader-sc-52zaxc-0 cyMXGn"
       >
         Teal
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 YGRvh"
+        class="ColorGridRow__Shader-sc-52zaxc-0 hPWPaP"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 jYRmzu"
+        class="ColorGridRow__Shader-sc-52zaxc-0 hwUFIs"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 fjUdlu"
+        class="ColorGridRow__Shader-sc-52zaxc-0 gRyLoA"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 fnOyCQ"
+        class="ColorGridRow__Shader-sc-52zaxc-0 conpuy"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 iDlNTe"
+        class="ColorGridRow__Shader-sc-52zaxc-0 dFWuVo"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 dHRtOm"
+        class="ColorGridRow__Shader-sc-52zaxc-0 fprHdY"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 ddpSrG"
+        class="ColorGridRow__Shader-sc-52zaxc-0 fDhgrc"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 jMyDDw"
+        class="ColorGridRow__Shader-sc-52zaxc-0 kAZKhC"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 fKoPYj"
+        class="ColorGridRow__Shader-sc-52zaxc-0 giBmOJ"
       >
          
       </div>
     </div>
     <div
-      class="ColorGridRow__GridWrapper-sc-52zaxc-1 dOWTSc"
+      class="ColorGridRow__GridWrapper-sc-52zaxc-1 XIwEi"
     >
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 bzitVq"
+        class="ColorGridRow__Shader-sc-52zaxc-0 igNCCE"
       >
         Green
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 fiASTV"
+        class="ColorGridRow__Shader-sc-52zaxc-0 fWzubD"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 iAFbKj"
+        class="ColorGridRow__Shader-sc-52zaxc-0 cDYlYt"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 hAcgiK"
+        class="ColorGridRow__Shader-sc-52zaxc-0 buXFEE"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 fQYYAQ"
+        class="ColorGridRow__Shader-sc-52zaxc-0 ilkQma"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 jAmHnC"
+        class="ColorGridRow__Shader-sc-52zaxc-0 guSLZM"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 amBhf"
+        class="ColorGridRow__Shader-sc-52zaxc-0 jalbVh"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 coThuV"
+        class="ColorGridRow__Shader-sc-52zaxc-0 UQElr"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 hTVhYF"
+        class="ColorGridRow__Shader-sc-52zaxc-0 iktYzb"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 dfqPIL"
+        class="ColorGridRow__Shader-sc-52zaxc-0 gMZosx"
       >
          
       </div>
     </div>
     <div
-      class="ColorGridRow__GridWrapper-sc-52zaxc-1 dOWTSc"
+      class="ColorGridRow__GridWrapper-sc-52zaxc-1 XIwEi"
     >
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 kTlaVr"
+        class="ColorGridRow__Shader-sc-52zaxc-0 gjwwCp"
       >
         Blue
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 joiPTG"
+        class="ColorGridRow__Shader-sc-52zaxc-0 jIkrIE"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 fklEaj"
+        class="ColorGridRow__Shader-sc-52zaxc-0 kBeRkZ"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 ivyXyx"
+        class="ColorGridRow__Shader-sc-52zaxc-0 jkUHsn"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 kcIDLU"
+        class="ColorGridRow__Shader-sc-52zaxc-0 idPTQO"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 kWBmpQ"
+        class="ColorGridRow__Shader-sc-52zaxc-0 eQyfom"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 ErzXx"
+        class="ColorGridRow__Shader-sc-52zaxc-0 bYkApT"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 jBVEeN"
+        class="ColorGridRow__Shader-sc-52zaxc-0 kXVknr"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 jbmdNo"
+        class="ColorGridRow__Shader-sc-52zaxc-0 fMznbK"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 djDjck"
+        class="ColorGridRow__Shader-sc-52zaxc-0 daaLyq"
       >
          
       </div>
     </div>
     <div
-      class="ColorGridRow__GridWrapper-sc-52zaxc-1 dOWTSc"
+      class="ColorGridRow__GridWrapper-sc-52zaxc-1 XIwEi"
     >
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 lkPiVM"
+        class="ColorGridRow__Shader-sc-52zaxc-0 JSPVu"
       >
         Yellow
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 ksoOzf"
+        class="ColorGridRow__Shader-sc-52zaxc-0 hjEYVV"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 yqRYU"
+        class="ColorGridRow__Shader-sc-52zaxc-0 gGTMfG"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 kHgMve"
+        class="ColorGridRow__Shader-sc-52zaxc-0 fkfCgY"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 jTZqTV"
+        class="ColorGridRow__Shader-sc-52zaxc-0 khuCFf"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 dAgkDv"
+        class="ColorGridRow__Shader-sc-52zaxc-0 iCDpPx"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 fxzJwb"
+        class="ColorGridRow__Shader-sc-52zaxc-0 efEwJV"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 itHFXO"
+        class="ColorGridRow__Shader-sc-52zaxc-0 kmXneU"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 hjmTIb"
+        class="ColorGridRow__Shader-sc-52zaxc-0 cLiBtV"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 iKpYQi"
+        class="ColorGridRow__Shader-sc-52zaxc-0 gVjhDE"
       >
          
       </div>
     </div>
     <div
-      class="ColorGridRow__GridWrapper-sc-52zaxc-1 dOWTSc"
+      class="ColorGridRow__GridWrapper-sc-52zaxc-1 XIwEi"
     >
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 dAtyVD"
+        class="ColorGridRow__Shader-sc-52zaxc-0 eBKNjN"
       >
         Red
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 jqudlj"
+        class="ColorGridRow__Shader-sc-52zaxc-0 jtXavZ"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 gnqCEs"
+        class="ColorGridRow__Shader-sc-52zaxc-0 fSrmO"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 bZCLqA"
+        class="ColorGridRow__Shader-sc-52zaxc-0 bYWgNC"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 dXqbWi"
+        class="ColorGridRow__Shader-sc-52zaxc-0 kPNUVU"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 qYZlA"
+        class="ColorGridRow__Shader-sc-52zaxc-0 hOkZhO"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 jnTFHl"
+        class="ColorGridRow__Shader-sc-52zaxc-0 fcfXqD"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 dpxgve"
+        class="ColorGridRow__Shader-sc-52zaxc-0 dvFUcI"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 hVYTCc"
+        class="ColorGridRow__Shader-sc-52zaxc-0 cjZEXS"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 cdjdjw"
+        class="ColorGridRow__Shader-sc-52zaxc-0 hnAoEG"
       >
          
       </div>
     </div>
     <div
-      class="ColorGridRow__GridWrapper-sc-52zaxc-1 dOWTSc"
+      class="ColorGridRow__GridWrapper-sc-52zaxc-1 XIwEi"
     >
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 cuUvhU"
+        class="ColorGridRow__Shader-sc-52zaxc-0 nPNHe"
       >
         Gray
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 gpYHcg"
+        class="ColorGridRow__Shader-sc-52zaxc-0 jKeXVG"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 htYNpX"
+        class="ColorGridRow__Shader-sc-52zaxc-0 cKznKp"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 EPenD"
+        class="ColorGridRow__Shader-sc-52zaxc-0 fkHaqd"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 kLSksA"
+        class="ColorGridRow__Shader-sc-52zaxc-0 kDyOia"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 kmXOuy"
+        class="ColorGridRow__Shader-sc-52zaxc-0 bGSCUs"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 jimiZM"
+        class="ColorGridRow__Shader-sc-52zaxc-0 bxHVDS"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 vQWHX"
+        class="ColorGridRow__Shader-sc-52zaxc-0 fCOHpl"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 bOHZRD"
+        class="ColorGridRow__Shader-sc-52zaxc-0 izQrAZ"
       >
          
       </div>
       <div
-        class="ColorGridRow__Shader-sc-52zaxc-0 eMmpFy"
+        class="ColorGridRow__Shader-sc-52zaxc-0 hEoXrs"
       >
          
       </div>

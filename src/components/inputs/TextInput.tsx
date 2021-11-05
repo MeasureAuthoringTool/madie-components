@@ -1,8 +1,8 @@
 import React from "react";
 import tw from "twin.macro";
-import { LabelComponent } from "../labels/Label";
-import { HelperTextComponent } from "../helperText/HelperText";
 import { ExclamationCircleIcon, CheckCircleIcon } from "@heroicons/react/solid";
+import Label from "../labels/Label";
+import HelperText from "../helperText/HelperText";
 
 type IconType = (props: React.ComponentProps<"svg">) => JSX.Element;
 
@@ -53,7 +53,7 @@ function getStyledInput(props: TextInputProps) {
   return styleInput;
 }
 
-export function TextInputComponent(props: TextInputProps) {
+export default function TextInput(props: TextInputProps) {
   const {
     children,
     hasError,
@@ -68,7 +68,7 @@ export function TextInputComponent(props: TextInputProps) {
   return (
     <div>
       {React.Children.map(children, (child) => {
-        if (child.type === LabelComponent) return child;
+        if (child.type === Label) return child;
       })}
       <div tw="mt-1 relative rounded-md shadow-sm">
         {!!leftIcon && (
@@ -111,7 +111,7 @@ export function TextInputComponent(props: TextInputProps) {
         )}
       </div>
       {React.Children.map(children, (child) => {
-        if (child.type === HelperTextComponent) return child;
+        if (child.type === HelperText) return child;
       })}
     </div>
   );

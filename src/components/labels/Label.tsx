@@ -1,5 +1,4 @@
 import React from "react";
-import tw from "twin.macro";
 
 export interface LabelProps
   extends React.LabelHTMLAttributes<HTMLLabelElement> {
@@ -7,7 +6,7 @@ export interface LabelProps
   cornerHint?: string;
 }
 
-export function LabelComponent(props: LabelProps) {
+export default function Label(props: LabelProps) {
   const { cornerHint, ...args } = props;
   return (
     <div tw="flex justify-between" data-testid="label-component-test">

@@ -1,10 +1,10 @@
 import * as React from "react";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { TextInputComponent } from "./TextInput";
-import { LabelComponent } from "../labels/Label";
-import { HelperTextComponent } from "../helperText/HelperText";
 import { ExclamationCircleIcon, MailIcon } from "@heroicons/react/solid";
+import TextInput from "./TextInput";
+import LabelComponent from "../labels/Label";
+import HelperTextComponent from "../helperText/HelperText";
 
 const textInputTestId = "text-input-component";
 const labelProps = {
@@ -28,9 +28,7 @@ const helperTextProps = {
 
 describe("TextInput Component", () => {
   it("should render default text input with no children", () => {
-    render(
-      <TextInputComponent data-testid={textInputTestId} {...textInputProps} />
-    );
+    render(<TextInput data-testid={textInputTestId} {...textInputProps} />);
     const textInput = screen.getByTestId(textInputTestId);
     expect(textInput).toBeInTheDocument();
     expect(textInput).toHaveAttribute("type", "text");
@@ -44,7 +42,7 @@ describe("TextInput Component", () => {
 
   it("should render text input with children components", () => {
     render(
-      <TextInputComponent data-testid={textInputTestId} {...textInputProps}>
+      <TextInput data-testid={textInputTestId} {...textInputProps}>
         <LabelComponent
           text={labelProps.text}
           cornerHint={labelProps.cornerHint}
@@ -53,7 +51,7 @@ describe("TextInput Component", () => {
           data-testid={helperTextProps.testId}
           text={helperTextProps.text}
         />
-      </TextInputComponent>
+      </TextInput>
     );
     const textInput = screen.getByTestId(textInputTestId);
     expect(textInput).toBeInTheDocument();
@@ -77,7 +75,7 @@ describe("TextInput Component", () => {
     <ExclamationCircleIcon data-testid={"right-icon-test"} />
   );
   it("should render text input with left icon and right icon", () => {
-    render(<TextInputComponent {...textInputProps} />);
+    render(<TextInput {...textInputProps} />);
     const leftIcon = screen.getByTestId("left-icon-test");
     expect(leftIcon).toBeInTheDocument();
     expect(leftIcon).toMatchSnapshot();
@@ -89,7 +87,7 @@ describe("TextInput Component", () => {
 
   textInputProps.hasError = true;
   it("should render text input with error", () => {
-    render(<TextInputComponent {...textInputProps} />);
+    render(<TextInput {...textInputProps} />);
     const errorIcon = screen.getByTestId("error-test-id");
     expect(errorIcon).toBeInTheDocument();
     expect(errorIcon).toMatchSnapshot();
@@ -97,7 +95,7 @@ describe("TextInput Component", () => {
 
   textInputProps.isValidationSuccess = true;
   it("should render text input with success validation", () => {
-    render(<TextInputComponent {...textInputProps} />);
+    render(<TextInput {...textInputProps} />);
     const successIcon = screen.getByTestId("success-test-id");
     expect(successIcon).toBeInTheDocument();
     expect(successIcon).toMatchSnapshot();

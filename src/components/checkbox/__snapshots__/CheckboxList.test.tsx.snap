@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxList component should match the snapshot 1`] = `
+<div>
+  <fieldset
+    class="CheckboxStyles__Fieldset-sc-aqujzc-11 hNcvwa"
+  >
+    <legend
+      class="CheckboxStyles__Legend-sc-aqujzc-10 ckeDuy"
+    >
+      Legendary legend
+    </legend>
+    <div
+      class="CheckboxStyles__OuterWrapper-sc-aqujzc-7 jRyxFJ"
+    >
+      <div
+        class="CheckboxStyles__InputWrapper-sc-aqujzc-8 bvhStc"
+      >
+        <input
+          checked=""
+          class="CheckboxStyles__Input-sc-aqujzc-0 dEjBNa"
+          data-testid="checkbox1"
+          id="checkbox-1"
+          type="checkbox"
+        />
+      </div>
+      <div
+        class="CheckboxStyles__LabelWrapper-sc-aqujzc-9 jWIUAF"
+      >
+        <label
+          class="CheckboxStyles__BaseLabel-sc-aqujzc-1 CheckboxStyles__EnabledLabel-sc-aqujzc-2 bZiBFj ckblbH"
+          for="checkbox-1"
+          id="checkbox-1-label"
+        >
+          Checkbox One
+        </label>
+      </div>
+    </div>
+    <div
+      class="CheckboxStyles__OuterWrapper-sc-aqujzc-7 jRyxFJ"
+    >
+      <div
+        class="CheckboxStyles__InputWrapper-sc-aqujzc-8 bvhStc"
+      >
+        <input
+          class="CheckboxStyles__Input-sc-aqujzc-0 dEjBNa"
+          data-testid="checkbox2"
+          id="checkbox-2"
+          type="checkbox"
+        />
+      </div>
+      <div
+        class="CheckboxStyles__LabelWrapper-sc-aqujzc-9 jWIUAF"
+      >
+        <label
+          class="CheckboxStyles__BaseLabel-sc-aqujzc-1 CheckboxStyles__EnabledLabel-sc-aqujzc-2 bZiBFj ckblbH"
+          for="checkbox-2"
+          id="checkbox-2-label"
+        >
+          Checkbox Two
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`CheckboxList component should match the snapshot 2`] = `
+<div>
+  <fieldset
+    class="CheckboxStyles__Fieldset-sc-aqujzc-11 hNcvwa"
+  >
+    <div
+      class="CheckboxStyles__OuterWrapper-sc-aqujzc-7 jRyxFJ"
+    >
+      <div
+        class="CheckboxStyles__InputWrapper-sc-aqujzc-8 bvhStc"
+      >
+        <input
+          checked=""
+          class="CheckboxStyles__Input-sc-aqujzc-0 dEjBNa"
+          data-testid="checkbox1"
+          id="checkbox-3"
+          type="checkbox"
+        />
+      </div>
+      <div
+        class="CheckboxStyles__LabelWrapper-sc-aqujzc-9 jWIUAF"
+      >
+        <label
+          class="CheckboxStyles__BaseLabel-sc-aqujzc-1 CheckboxStyles__EnabledLabel-sc-aqujzc-2 bZiBFj ckblbH"
+          for="checkbox-3"
+          id="checkbox-3-label"
+        >
+          Checkbox One
+        </label>
+      </div>
+    </div>
+    <div
+      class="CheckboxStyles__OuterWrapper-sc-aqujzc-7 jRyxFJ"
+    >
+      <div
+        class="CheckboxStyles__InputWrapper-sc-aqujzc-8 bvhStc"
+      >
+        <input
+          class="CheckboxStyles__Input-sc-aqujzc-0 dEjBNa"
+          data-testid="checkbox2"
+          id="checkbox-4"
+          type="checkbox"
+        />
+      </div>
+      <div
+        class="CheckboxStyles__LabelWrapper-sc-aqujzc-9 jWIUAF"
+      >
+        <label
+          class="CheckboxStyles__BaseLabel-sc-aqujzc-1 CheckboxStyles__EnabledLabel-sc-aqujzc-2 bZiBFj ckblbH"
+          for="checkbox-4"
+          id="checkbox-4-label"
+        >
+          Checkbox Two
+        </label>
+      </div>
+    </div>
+  </fieldset>
+</div>
+`;
+
+exports[`CheckboxList component should match the snapshot 3`] = `
+<div>
+  <fieldset
+    class="CheckboxStyles__Fieldset-sc-aqujzc-11 hNcvwa"
+  />
+</div>
+`;

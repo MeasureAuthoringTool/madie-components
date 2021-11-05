@@ -2,7 +2,7 @@
 
 exports[`TextInput Component should render default text input with no children 1`] = `
 <input
-  class="TextInput__defaultTextInput-sc-qqk5wt-0 TextInput__styleInput-sc-qqk5wt-1 TextInput__styleInput-sc-qqk5wt-2 TextInput__styleInput-sc-qqk5wt-3 bVSAZY iqqeeC gzvCKe drIIHv"
+  class="TextInput__defaultTextInput-sc-qqk5wt-0 TextInput__styleInput-sc-qqk5wt-1 TextInput__styleInput-sc-qqk5wt-2 TextInput__styleInput-sc-qqk5wt-3 keBmkK dJZKow hLynPY cCFASB"
   data-testid="text-input-component"
   id="TextInputId"
   name="TextInputName"
@@ -13,7 +13,7 @@ exports[`TextInput Component should render default text input with no children 1
 
 exports[`TextInput Component should render text input with children components 1`] = `
 <input
-  class="TextInput__defaultTextInput-sc-qqk5wt-0 TextInput__styleInput-sc-qqk5wt-1 TextInput__styleInput-sc-qqk5wt-2 TextInput__styleInput-sc-qqk5wt-3 bVSAZY iqqeeC gzvCKe drIIHv"
+  class="TextInput__defaultTextInput-sc-qqk5wt-0 TextInput__styleInput-sc-qqk5wt-1 TextInput__styleInput-sc-qqk5wt-2 TextInput__styleInput-sc-qqk5wt-3 keBmkK dJZKow hLynPY cCFASB"
   data-testid="text-input-component"
   id="TextInputId"
   name="TextInputName"
@@ -24,16 +24,17 @@ exports[`TextInput Component should render text input with children components 1
 
 exports[`TextInput Component should render text input with children components 2`] = `
 <div
-  class="Label___StyledDiv-sc-goa2uk-0 bFBXIw"
   data-testid="label-component-test"
+  tw="flex justify-between"
 >
   <label
-    class="Label___StyledLabel-sc-goa2uk-1 lFRji"
+    text="Label"
+    tw="block text-sm font-medium text-gray-800 dark:text-gray-300"
   >
     Label
   </label>
   <span
-    class="Label___StyledSpan-sc-goa2uk-2 ftEbCx"
+    tw="text-sm text-gray-600 dark:text-gray-300"
   >
     Optional
   </span>
@@ -42,7 +43,7 @@ exports[`TextInput Component should render text input with children components 2
 
 exports[`TextInput Component should render text input with children components 3`] = `
 <span
-  class="HelperText__defaultHelperText-sc-4k037i-0 iJGOzB"
+  class="HelperText__defaultHelperText-sc-4k037i-0 gIFihb"
   data-testid="helper-text-component-test"
 >
   Help text goes here
@@ -51,12 +52,12 @@ exports[`TextInput Component should render text input with children components 3
 
 exports[`TextInput Component should render text input with error 1`] = `
 <div
-  class="TextInput___StyledDiv6-sc-qqk5wt-9 jtUJQY"
+  class="TextInput___StyledDiv6-sc-qqk5wt-9 kLbAnK"
   data-testid="error-test-id"
 >
   <svg
     aria-hidden="true"
-    class="TextInput___StyledExclamationCircleIcon-sc-qqk5wt-10 DPJDN"
+    class="TextInput___StyledExclamationCircleIcon-sc-qqk5wt-10 jLFXnf"
     fill="currentColor"
     viewBox="0 0 20 20"
     xmlns="http://www.w3.org/2000/svg"
@@ -72,6 +73,7 @@ exports[`TextInput Component should render text input with error 1`] = `
 
 exports[`TextInput Component should render text input with left icon and right icon 1`] = `
 <svg
+  aria-hidden="true"
   data-testid="left-icon-test"
   fill="currentColor"
   viewBox="0 0 20 20"
@@ -88,6 +90,7 @@ exports[`TextInput Component should render text input with left icon and right i
 
 exports[`TextInput Component should render text input with left icon and right icon 2`] = `
 <svg
+  aria-hidden="true"
   data-testid="right-icon-test"
   fill="currentColor"
   viewBox="0 0 20 20"
@@ -103,12 +106,12 @@ exports[`TextInput Component should render text input with left icon and right i
 
 exports[`TextInput Component should render text input with success validation 1`] = `
 <div
-  class="TextInput___StyledDiv7-sc-qqk5wt-11 huDpMk"
+  class="TextInput___StyledDiv7-sc-qqk5wt-11 lhKHte"
   data-testid="success-test-id"
 >
   <svg
     aria-hidden="true"
-    class="TextInput___StyledCheckCircleIcon-sc-qqk5wt-12 sxCsD"
+    class="TextInput___StyledCheckCircleIcon-sc-qqk5wt-12 cKHkQF"
     fill="currentColor"
     viewBox="0 0 20 20"
     xmlns="http://www.w3.org/2000/svg"

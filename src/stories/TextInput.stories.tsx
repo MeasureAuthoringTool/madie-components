@@ -1,19 +1,16 @@
 import React from "react";
 import { ComponentMeta, Story } from "@storybook/react";
-import {
-  TextInputComponent,
-  TextInputProps,
-} from "../components/inputs/TextInput";
-import { LabelComponent } from "../components/labels/Label";
-import { HelperTextComponent } from "../components/helperText/HelperText";
+import TextInput, { TextInputProps } from "../components/inputs/TextInput";
+import Label from "../components/labels/Label";
+import HelperText from "../components/helperText/HelperText";
 import { QuestionMarkCircleIcon, MailIcon } from "@heroicons/react/solid";
 import { Background, setDarkMode } from "./common/storybook-common";
 
 export default {
   title: "MADiE/TextInput",
-  component: TextInputComponent,
+  component: TextInput,
   argTypes: { darkMode: { control: "boolean" } },
-} as ComponentMeta<typeof TextInputComponent>;
+} as ComponentMeta<typeof TextInput>;
 
 interface ThemeableTextInputProps extends TextInputProps {
   darkMode: boolean;
@@ -34,14 +31,14 @@ const Template: Story<ThemeableTextInputProps> = ({ darkMode, ...args }) => {
   setDarkMode(darkMode);
   return (
     <Background>
-      <TextInputComponent {...args} />
+      <TextInput {...args} />
     </Background>
   );
 };
 
 export const defaultTextInputWithLabel = Template.bind({});
 defaultTextInputWithLabel.args = {
-  children: <LabelComponent {...labelProps} />,
+  children: <Label {...labelProps} />,
   type: "Text",
   name: "TextinputName",
   id: "TextInputId",
@@ -51,7 +48,7 @@ defaultTextInputWithLabel.args = {
 labelProps.cornerHint = "Optional";
 export const textInputWithCornerHint = Template.bind({});
 textInputWithCornerHint.args = {
-  children: <LabelComponent {...labelProps} />,
+  children: <Label {...labelProps} />,
   type: "Text",
   name: "TextinputName",
   id: "TextInputId",
@@ -69,7 +66,7 @@ textInputWithNoLabel.args = {
 labelProps.cornerHint = "";
 export const textInputWithLeadingIcon = Template.bind({});
 textInputWithLeadingIcon.args = {
-  children: <LabelComponent {...labelProps} />,
+  children: <Label {...labelProps} />,
   type: "Text",
   name: "TextinputName",
   id: "TextInputId",
@@ -79,7 +76,7 @@ textInputWithLeadingIcon.args = {
 
 export const textInputWithTrailingIcon = Template.bind({});
 textInputWithTrailingIcon.args = {
-  children: <LabelComponent {...labelProps} />,
+  children: <Label {...labelProps} />,
   type: "Text",
   name: "TextinputName",
   id: "TextInputId",
@@ -91,10 +88,7 @@ helperTextProps.text = "Error text goes here";
 helperTextProps.isError = true;
 export const textInputWithValidationError = Template.bind({});
 textInputWithValidationError.args = {
-  children: [
-    <LabelComponent {...labelProps} />,
-    <HelperTextComponent {...helperTextProps} />,
-  ],
+  children: [<Label {...labelProps} />, <HelperText {...helperTextProps} />],
   type: "Text",
   name: "TextinputName",
   id: "TextInputId",
@@ -106,10 +100,7 @@ helperTextProps.text = "Input with success";
 helperTextProps.isError = false;
 export const textInputWithValidationSuccess = Template.bind({});
 textInputWithValidationSuccess.args = {
-  children: [
-    <LabelComponent {...labelProps} />,
-    <HelperTextComponent {...helperTextProps} />,
-  ],
+  children: [<Label {...labelProps} />, <HelperText {...helperTextProps} />],
   type: "Text",
   name: "TextinputName",
   id: "TextInputId",
@@ -120,10 +111,7 @@ textInputWithValidationSuccess.args = {
 helperTextProps.text = "Help text goes here";
 export const textInputWithLabelAndHelpText = Template.bind({});
 textInputWithLabelAndHelpText.args = {
-  children: [
-    <LabelComponent {...labelProps} />,
-    <HelperTextComponent {...helperTextProps} />,
-  ],
+  children: [<Label {...labelProps} />, <HelperText {...helperTextProps} />],
   type: "Text",
   name: "TextinputName",
   id: "TextInputId",
