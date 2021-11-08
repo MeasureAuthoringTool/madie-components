@@ -8,6 +8,8 @@ export { default as Button } from "./components/buttons/Button";
 export { default as Checkbox } from "./components/checkbox/Checkbox";
 export { default as CheckboxList } from "./components/checkbox/CheckboxList";
 export { default as TextInput } from "./components/inputs/TextInput";
+export { default as Label } from "./components/labels/Label";
+export { default as HelperText } from "./components/helperText/HelperText";
 
 const lifecycles = singleSpaReact<void>({
   React,
