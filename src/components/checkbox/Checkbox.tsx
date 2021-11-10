@@ -1,5 +1,5 @@
 import React from "react";
-import _ from "lodash";
+import useUniqueId from "../../hooks/useUniqueId";
 import {
   DisabledDescription,
   DisabledLabel,
@@ -26,8 +26,9 @@ export interface CheckboxProps
 export default function Checkbox(args: CheckboxProps) {
   const { id, label, description, checked, handleChange, disabled, ...props } =
     args;
+  const uniqueId = useUniqueId("checkbox-");
 
-  const inputId = id || `checkbox-${_.uniqueId()}`;
+  const inputId = id || uniqueId;
   const labelId = `${inputId}-label`;
   const descriptionId = description ? `${inputId}-description` : undefined;
 

@@ -12,6 +12,7 @@ export default {
       table: { disable: true },
     },
     id: { table: { disable: true } },
+    "data-testid": { table: { disable: true } },
     checked: { table: { disable: true } },
     handleChange: { table: { disable: true } },
     darkMode: { control: "boolean" },

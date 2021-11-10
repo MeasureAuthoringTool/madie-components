@@ -9,11 +9,11 @@ exports[`Checkbox component should be able to disable 1`] = `
       class="CheckboxStyles__InputWrapper-sc-aqujzc-8 bvhStc"
     >
       <input
-        aria-describedby="checkbox-3-description"
+        aria-describedby="checkbox-1-description"
         class="CheckboxStyles__Input-sc-aqujzc-0 dEjBNa"
         data-testid="test-checkbox"
         disabled=""
-        id="checkbox-3"
+        id="checkbox-1"
         type="checkbox"
       />
     </div>
@@ -22,14 +22,14 @@ exports[`Checkbox component should be able to disable 1`] = `
     >
       <label
         class="CheckboxStyles__BaseLabel-sc-aqujzc-1 CheckboxStyles__DisabledLabel-sc-aqujzc-3 bZiBFj bmMbNb"
-        for="checkbox-3"
-        id="checkbox-3-label"
+        for="checkbox-1"
+        id="checkbox-1-label"
       >
         Checkbox Label
       </label>
       <p
         class="CheckboxStyles__BaseDescription-sc-aqujzc-4 CheckboxStyles__DisabledDescription-sc-aqujzc-6 daQPnZ ctqRKF"
-        id="checkbox-3-description"
+        id="checkbox-1-description"
       >
         Checkbox Description
       </p>

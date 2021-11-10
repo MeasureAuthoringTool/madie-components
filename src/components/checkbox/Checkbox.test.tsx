@@ -1,5 +1,6 @@
 import * as React from "react";
 import { render, fireEvent } from "@testing-library/react";
+import { resetUniqueId } from "../../hooks/useUniqueId";
 import Checkbox from "./Checkbox";
 
 const testId = "test-checkbox";
@@ -9,6 +10,8 @@ const labelText = "Checkbox Label";
 const descriptionText = "Checkbox Description";
 
 describe("Checkbox component", () => {
+  beforeEach(resetUniqueId);
+
   it("should render a checkbox component, passing all extra properties to the input element", () => {
     const { getByTestId } = render(
       <Checkbox label={labelText} data-testid={testId} />
