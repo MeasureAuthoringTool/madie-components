@@ -7,3 +7,4 @@ dist
 coverage
 pnpm-lock.yaml
 storybook-static
+pull_request_template.md
