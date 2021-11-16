@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioInput component should be able to disable 1`] = `
+<div>
+  <input
+    class="RadioInput__StyledInput-sc-jjc4eq-0 eeUXAV"
+    data-testid="test-radio"
+    disabled=""
+    id="radio-input-1"
+    name="radioFormName"
+    type="radio"
+    value="formValue"
+  />
+  <label
+    class="RadioInput__StyledLabel-sc-jjc4eq-1 RadioInput__DisabledLabel-sc-jjc4eq-2 ljjYLs dpCDXv"
+    for="radio-input-1"
+    id="radio-input-1-label"
+  >
+    Radio Label
+  </label>
+</div>
+`;
+
+exports[`RadioInput component should render a RadioInput component, passing all extra properties to the input element 1`] = `
+<input
+  class="RadioInput__StyledInput-sc-jjc4eq-0 eeUXAV"
+  data-testid="test-radio"
+  id="radio-input-1"
+  name="radioFormName"
+  type="radio"
+  value="formValue"
+/>
+`;

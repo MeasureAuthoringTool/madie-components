@@ -1,0 +1,583 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component should allow button shape normal 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 kUZxlM bXleuS jDEaEe"
+  data-testid="madie-button"
+>
+  Hello World
+</button>
+`;
+
+exports[`Button component should allow button shape round 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__RoundPrimaryButtonMd-sc-b30vlr-9 kUZxlM bXleuS gZrNiT"
+  data-testid="madie-button"
+>
+  Hello World
+</button>
+`;
+
+exports[`Button component should allow button variant primary 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 kUZxlM bXleuS jDEaEe"
+  data-testid="madie-button"
+>
+  Hello World
+</button>
+`;
+
+exports[`Button component should allow button variant secondary 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__SecondaryButton-sc-b30vlr-17 ButtonStyles__NormalSecondaryButtonMd-sc-b30vlr-20 kUZxlM jyopeP jhBQTy"
+  data-testid="madie-button"
+>
+  Hello World
+</button>
+`;
+
+exports[`Button component should allow button variant white 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__WhiteButton-sc-b30vlr-33 ButtonStyles__NormalWhiteButtonMd-sc-b30vlr-36 kUZxlM cBKRhC gRgiHs"
+  data-testid="madie-button"
+>
+  Hello World
+</button>
+`;
+
+exports[`Button component should allow leading button size lg 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonLg-sc-b30vlr-5 kUZxlM bXleuS hyUeOy"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__LeadingLarge-sc-1x8zj24-5 dSdIWT jBlzhf"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+  Hello World
+</button>
+`;
+
+exports[`Button component should allow leading button size md 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 kUZxlM bXleuS jDEaEe"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__LeadingMedium-sc-1x8zj24-4 dSdIWT gRTdnJ"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+  Hello World
+</button>
+`;
+
+exports[`Button component should allow leading button size sm 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonSm-sc-b30vlr-3 kUZxlM bXleuS iVnXOv"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon4x4-sc-1x8zj24-0 ButtonIcon__LeadingSmall-sc-1x8zj24-3 kkWZtG jogSkB"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+  Hello World
+</button>
+`;
+
+exports[`Button component should allow leading button size xl 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonXl-sc-b30vlr-6 kUZxlM bXleuS iAXMxy"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__LeadingLarge-sc-1x8zj24-5 dSdIWT jBlzhf"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+  Hello World
+</button>
+`;
+
+exports[`Button component should allow leading button size xs 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonXs-sc-b30vlr-2 kUZxlM bXleuS eTpnch"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon4x4-sc-1x8zj24-0 ButtonIcon__LeadingSmall-sc-1x8zj24-3 kkWZtG jogSkB"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+  Hello World
+</button>
+`;
+
+exports[`Button component should allow trailing button size lg 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonLg-sc-b30vlr-5 kUZxlM bXleuS hyUeOy"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__TrailingLarge-sc-1x8zj24-8 dSdIWT rOxkk Button__TrailingIcon-sc-1lc4zd6-0 Xgkmp"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+  Hello World
+</button>
+`;
+
+exports[`Button component should allow trailing button size lg 2`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__CircularPrimaryButtonLg-sc-b30vlr-15 kUZxlM bXleuS ceTvmI"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon6x6-sc-1x8zj24-2 dbFYYM"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Button component should allow trailing button size md 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 kUZxlM bXleuS jDEaEe"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__TrailingMedium-sc-1x8zj24-7 dSdIWT fVzpcI Button__TrailingIcon-sc-1lc4zd6-0 Xgkmp"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+  Hello World
+</button>
+`;
+
+exports[`Button component should allow trailing button size md 2`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__CircularPrimaryButtonMd-sc-b30vlr-14 kUZxlM bXleuS iuCVdv"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon6x6-sc-1x8zj24-2 dbFYYM"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Button component should allow trailing button size sm 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonSm-sc-b30vlr-3 kUZxlM bXleuS iVnXOv"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon4x4-sc-1x8zj24-0 ButtonIcon__TrailingSmall-sc-1x8zj24-6 kkWZtG kAErQW Button__TrailingIcon-sc-1lc4zd6-0 Xgkmp"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+  Hello World
+</button>
+`;
+
+exports[`Button component should allow trailing button size sm 2`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__CircularPrimaryButtonSm-sc-b30vlr-13 kUZxlM bXleuS hyCDbX"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 dSdIWT"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Button component should allow trailing button size xl 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonXl-sc-b30vlr-6 kUZxlM bXleuS iAXMxy"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__TrailingLarge-sc-1x8zj24-8 dSdIWT rOxkk Button__TrailingIcon-sc-1lc4zd6-0 Xgkmp"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+  Hello World
+</button>
+`;
+
+exports[`Button component should allow trailing button size xl 2`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__CircularPrimaryButtonXl-sc-b30vlr-16 kUZxlM bXleuS gjrjMH"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon6x6-sc-1x8zj24-2 dbFYYM"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Button component should allow trailing button size xs 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonXs-sc-b30vlr-2 kUZxlM bXleuS eTpnch"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon4x4-sc-1x8zj24-0 ButtonIcon__TrailingSmall-sc-1x8zj24-6 kkWZtG kAErQW Button__TrailingIcon-sc-1lc4zd6-0 Xgkmp"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+  Hello World
+</button>
+`;
+
+exports[`Button component should allow trailing button size xs 2`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__CircularPrimaryButtonXs-sc-b30vlr-12 kUZxlM bXleuS jpYLYF"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 dSdIWT"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Button component should ignore text on a circular button 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__CircularPrimaryButtonMd-sc-b30vlr-14 kUZxlM bXleuS iuCVdv"
+  data-testid="madie-button"
+/>
+`;
+
+exports[`Button component should render a button with no icons and no text 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 kUZxlM bXleuS jDEaEe"
+  data-testid="madie-button"
+/>
+`;
+
+exports[`Button component should render a button with text and a leading icon 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 kUZxlM bXleuS jDEaEe"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__LeadingMedium-sc-1x8zj24-4 dSdIWT gRTdnJ"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+  Hello World
+</button>
+`;
+
+exports[`Button component should render a button with text and a trailing icon 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 kUZxlM bXleuS jDEaEe"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__TrailingMedium-sc-1x8zj24-7 dSdIWT fVzpcI Button__TrailingIcon-sc-1lc4zd6-0 Xgkmp"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+  Hello World
+</button>
+`;
+
+exports[`Button component should render a button with text but no icon 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 kUZxlM bXleuS jDEaEe"
+  data-testid="madie-button"
+>
+  Hello World
+</button>
+`;
+
+exports[`Button component should render a disabled button 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__DisabledButton-sc-b30vlr-49 ButtonStyles__NormalDisabledButtonMd-sc-b30vlr-52 kUZxlM gbSIiI jnZySd"
+  data-testid="madie-button"
+  disabled=""
+>
+  Hello World
+</button>
+`;
+
+exports[`Button component should render a lg button with an icon and no text 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonLg-sc-b30vlr-5 kUZxlM bXleuS hyUeOy"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 dSdIWT"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Button component should render a md button with an icon and no text 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 kUZxlM bXleuS jDEaEe"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 dSdIWT"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Button component should render a sm button with an icon and no text 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonSm-sc-b30vlr-3 kUZxlM bXleuS iVnXOv"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon4x4-sc-1x8zj24-0 kkWZtG"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Button component should render a xl button with an icon and no text 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonXl-sc-b30vlr-6 kUZxlM bXleuS iAXMxy"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon5x5-sc-1x8zj24-1 dSdIWT"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Button component should render a xs button with an icon and no text 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonXs-sc-b30vlr-2 kUZxlM bXleuS eTpnch"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="ButtonIcon__Icon4x4-sc-1x8zj24-0 kkWZtG"
+    fill="currentColor"
+    viewBox="0 0 20 20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      clip-rule="evenodd"
+      d="M6 3a1 1 0 011-1h.01a1 1 0 010 2H7a1 1 0 01-1-1zm2 3a1 1 0 00-2 0v1a2 2 0 00-2 2v1a2 2 0 00-2 2v.683a3.7 3.7 0 011.055.485 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0 3.704 3.704 0 014.11 0 1.704 1.704 0 001.89 0A3.7 3.7 0 0118 12.683V12a2 2 0 00-2-2V9a2 2 0 00-2-2V6a1 1 0 10-2 0v1h-1V6a1 1 0 10-2 0v1H8V6zm10 8.868a3.704 3.704 0 01-4.055-.036 1.704 1.704 0 00-1.89 0 3.704 3.704 0 01-4.11 0 1.704 1.704 0 00-1.89 0A3.704 3.704 0 012 14.868V17a1 1 0 001 1h14a1 1 0 001-1v-2.132zM9 3a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1zm3 0a1 1 0 011-1h.01a1 1 0 110 2H13a1 1 0 01-1-1z"
+      fill-rule="evenodd"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Button component should render loading text and loading icon when loading 1`] = `
+<button
+  class="ButtonStyles__BaseButton-sc-b30vlr-0 ButtonStyles__PrimaryButton-sc-b30vlr-1 ButtonStyles__NormalPrimaryButtonMd-sc-b30vlr-4 kUZxlM bXleuS jDEaEe"
+  data-testid="madie-button"
+>
+  <svg
+    aria-hidden="true"
+    class="SpinnerIcon__SpinningCircle-sc-fsgpxi-0 gWICSY ButtonIcon__Icon5x5-sc-1x8zj24-1 ButtonIcon__LeadingMedium-sc-1x8zj24-4 dSdIWT gRTdnJ"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle
+      class="SpinnerIcon__StyledCircle-sc-fsgpxi-1 kJfNhT"
+      cx="12"
+      cy="12"
+      r="10"
+      stroke="currentColor"
+    />
+    <path
+      class="SpinnerIcon__StyledPath-sc-fsgpxi-2 krngEy"
+      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+      fill="currentColor"
+    />
+  </svg>
+  Please be patient
+</button>
+`;

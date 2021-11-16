@@ -1,8 +1,9 @@
 const colors = require("tailwindcss/colors");
+const formsPlugin = require("@tailwindcss/forms");
 
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "class", // or 'media' or 'class'
   theme: {
     fontFamily: {
       display: ["Geometria", "system", "sans-serif"],
@@ -104,11 +105,24 @@ module.exports = {
         700: "#4a5681",
         800: "#2f3a68",
         900: "#1c2556",
+        950: "#20253a",
+        975: "#080B1A",
+      },
+    },
+    extend: {
+      outline: {
+        blue: "2px solid #3366FF",
+        red: {
+          300: "2px solid #ff7461",
+          600: "2px solid #db202a",
+        },
       },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ["active"],
+    },
   },
-  plugins: [],
+  plugins: [formsPlugin],
 };
