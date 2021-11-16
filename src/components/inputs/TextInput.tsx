@@ -68,7 +68,7 @@ export default function TextInput(props: TextInputProps) {
   return (
     <div>
       {React.Children.map(children, (child) => {
-        if (child.type === Label) return child;
+        if (child?.type === Label) return child;
       })}
       <div tw="mt-1 relative rounded-md shadow-sm">
         {!!leftIcon && (
@@ -111,7 +111,7 @@ export default function TextInput(props: TextInputProps) {
         )}
       </div>
       {React.Children.map(children, (child) => {
-        if (child.type === HelperText) return child;
+        if (child?.type === HelperText) return child;
       })}
     </div>
   );
