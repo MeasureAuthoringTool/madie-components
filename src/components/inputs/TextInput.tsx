@@ -63,7 +63,7 @@ export default function TextInput(props: TextInputProps) {
     ...args
   } = props;
 
-  let StyledTextInput = getStyledInput(props) || defaultTextInput;
+  let StyledTextInput = getStyledInput(props);
 
   return (
     <div>
