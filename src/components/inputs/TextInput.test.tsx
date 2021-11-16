@@ -70,11 +70,12 @@ describe("TextInput Component", () => {
     expect(helperText).toMatchSnapshot();
   });
 
-  textInputProps.leftIcon = <MailIcon data-testid={"left-icon-test"} />;
-  textInputProps.rightIcon = (
-    <ExclamationCircleIcon data-testid={"right-icon-test"} />
-  );
   it("should render text input with left icon and right icon", () => {
+    textInputProps.leftIcon = <MailIcon data-testid={"left-icon-test"} />;
+    textInputProps.rightIcon = (
+      <ExclamationCircleIcon data-testid={"right-icon-test"} />
+    );
+
     render(<TextInput {...textInputProps} />);
     const leftIcon = screen.getByTestId("left-icon-test");
     expect(leftIcon).toBeInTheDocument();
@@ -85,16 +86,18 @@ describe("TextInput Component", () => {
     expect(rightIcon).toMatchSnapshot();
   });
 
-  textInputProps.hasError = true;
   it("should render text input with error", () => {
+    textInputProps.hasError = true;
+
     render(<TextInput {...textInputProps} />);
     const errorIcon = screen.getByTestId("error-test-id");
     expect(errorIcon).toBeInTheDocument();
     expect(errorIcon).toMatchSnapshot();
   });
 
-  textInputProps.isValidationSuccess = true;
   it("should render text input with success validation", () => {
+    textInputProps.isValidationSuccess = true;
+
     render(<TextInput {...textInputProps} />);
     const successIcon = screen.getByTestId("success-test-id");
     expect(successIcon).toBeInTheDocument();
