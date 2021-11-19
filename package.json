@@ -1,8 +1,9 @@
 {
   "name": "@madie/madie-components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "src/**/*"
   ],
   "license": "CC0-1.0",
   "scripts": {
