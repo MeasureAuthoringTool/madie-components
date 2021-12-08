@@ -3,32 +3,32 @@
 exports[`CheckboxList component should match the snapshot 1`] = `
 <div>
   <fieldset
-    class="CheckboxStyles__Fieldset-sc-aqujzc-11 hNcvwa"
+    class="sc-kDTinF egfusR"
   >
     <legend
-      class="CheckboxStyles__Legend-sc-aqujzc-10 ckeDuy"
+      class="sc-jrQzAO eDCmoS"
     >
       Legendary legend
     </legend>
     <div
-      class="CheckboxStyles__OuterWrapper-sc-aqujzc-7 jRyxFJ"
+      class="sc-iCfMLu hqxfSB"
     >
       <div
-        class="CheckboxStyles__InputWrapper-sc-aqujzc-8 bvhStc"
+        class="sc-furwcr iuZtmL"
       >
         <input
           checked=""
-          class="CheckboxStyles__Input-sc-aqujzc-0 dEjBNa"
+          class="sc-bdvvtL hNbpzH"
           data-testid="checkbox1"
           id="checkbox-1"
           type="checkbox"
         />
       </div>
       <div
-        class="CheckboxStyles__LabelWrapper-sc-aqujzc-9 jWIUAF"
+        class="sc-pVTFL EWVqI"
       >
         <label
-          class="CheckboxStyles__BaseLabel-sc-aqujzc-1 CheckboxStyles__EnabledLabel-sc-aqujzc-2 bZiBFj ckblbH"
+          class="sc-gsDKAQ sc-dkPtRN iTQrPj BayBM"
           for="checkbox-1"
           id="checkbox-1-label"
         >
@@ -37,23 +37,23 @@ exports[`CheckboxList component should match the snapshot 1`] = `
       </div>
     </div>
     <div
-      class="CheckboxStyles__OuterWrapper-sc-aqujzc-7 jRyxFJ"
+      class="sc-iCfMLu hqxfSB"
     >
       <div
-        class="CheckboxStyles__InputWrapper-sc-aqujzc-8 bvhStc"
+        class="sc-furwcr iuZtmL"
       >
         <input
-          class="CheckboxStyles__Input-sc-aqujzc-0 dEjBNa"
+          class="sc-bdvvtL hNbpzH"
           data-testid="checkbox2"
           id="checkbox-2"
           type="checkbox"
         />
       </div>
       <div
-        class="CheckboxStyles__LabelWrapper-sc-aqujzc-9 jWIUAF"
+        class="sc-pVTFL EWVqI"
       >
         <label
-          class="CheckboxStyles__BaseLabel-sc-aqujzc-1 CheckboxStyles__EnabledLabel-sc-aqujzc-2 bZiBFj ckblbH"
+          class="sc-gsDKAQ sc-dkPtRN iTQrPj BayBM"
           for="checkbox-2"
           id="checkbox-2-label"
         >
@@ -68,27 +68,27 @@ exports[`CheckboxList component should match the snapshot 1`] = `
 exports[`CheckboxList component should match the snapshot 2`] = `
 <div>
   <fieldset
-    class="CheckboxStyles__Fieldset-sc-aqujzc-11 hNcvwa"
+    class="sc-kDTinF egfusR"
   >
     <div
-      class="CheckboxStyles__OuterWrapper-sc-aqujzc-7 jRyxFJ"
+      class="sc-iCfMLu hqxfSB"
     >
       <div
-        class="CheckboxStyles__InputWrapper-sc-aqujzc-8 bvhStc"
+        class="sc-furwcr iuZtmL"
       >
         <input
           checked=""
-          class="CheckboxStyles__Input-sc-aqujzc-0 dEjBNa"
+          class="sc-bdvvtL hNbpzH"
           data-testid="checkbox1"
           id="checkbox-3"
           type="checkbox"
         />
       </div>
       <div
-        class="CheckboxStyles__LabelWrapper-sc-aqujzc-9 jWIUAF"
+        class="sc-pVTFL EWVqI"
       >
         <label
-          class="CheckboxStyles__BaseLabel-sc-aqujzc-1 CheckboxStyles__EnabledLabel-sc-aqujzc-2 bZiBFj ckblbH"
+          class="sc-gsDKAQ sc-dkPtRN iTQrPj BayBM"
           for="checkbox-3"
           id="checkbox-3-label"
         >
@@ -97,23 +97,23 @@ exports[`CheckboxList component should match the snapshot 2`] = `
       </div>
     </div>
     <div
-      class="CheckboxStyles__OuterWrapper-sc-aqujzc-7 jRyxFJ"
+      class="sc-iCfMLu hqxfSB"
     >
       <div
-        class="CheckboxStyles__InputWrapper-sc-aqujzc-8 bvhStc"
+        class="sc-furwcr iuZtmL"
       >
         <input
-          class="CheckboxStyles__Input-sc-aqujzc-0 dEjBNa"
+          class="sc-bdvvtL hNbpzH"
           data-testid="checkbox2"
           id="checkbox-4"
           type="checkbox"
         />
       </div>
       <div
-        class="CheckboxStyles__LabelWrapper-sc-aqujzc-9 jWIUAF"
+        class="sc-pVTFL EWVqI"
       >
         <label
-          class="CheckboxStyles__BaseLabel-sc-aqujzc-1 CheckboxStyles__EnabledLabel-sc-aqujzc-2 bZiBFj ckblbH"
+          class="sc-gsDKAQ sc-dkPtRN iTQrPj BayBM"
           for="checkbox-4"
           id="checkbox-4-label"
         >
@@ -128,7 +128,7 @@ exports[`CheckboxList component should match the snapshot 2`] = `
 exports[`CheckboxList component should match the snapshot 3`] = `
 <div>
   <fieldset
-    class="CheckboxStyles__Fieldset-sc-aqujzc-11 hNcvwa"
+    class="sc-kDTinF egfusR"
   />
 </div>
 `;
