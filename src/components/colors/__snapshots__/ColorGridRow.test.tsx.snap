@@ -3,55 +3,55 @@
 exports[`ColorGridRow should render a single ColorGridRow 1`] = `
 <div>
   <div
-    class="ColorGridRow__GridWrapper-sc-52zaxc-1 XIwEi"
+    class="sc-gsDKAQ gflVCz"
   >
     <div
-      class="ColorGridRow__Shader-sc-52zaxc-0 gjwwCp"
+      class="sc-bdvvtL eobXmq"
     >
       Blue
     </div>
     <div
-      class="ColorGridRow__Shader-sc-52zaxc-0 jIkrIE"
+      class="sc-bdvvtL bqAZgX"
     >
        
     </div>
     <div
-      class="ColorGridRow__Shader-sc-52zaxc-0 kBeRkZ"
+      class="sc-bdvvtL ckpPKe"
     >
        
     </div>
     <div
-      class="ColorGridRow__Shader-sc-52zaxc-0 jkUHsn"
+      class="sc-bdvvtL fQeGgs"
     >
        
     </div>
     <div
-      class="ColorGridRow__Shader-sc-52zaxc-0 idPTQO"
+      class="sc-bdvvtL ioNyfl"
     >
        
     </div>
     <div
-      class="ColorGridRow__Shader-sc-52zaxc-0 eQyfom"
+      class="sc-bdvvtL corYXh"
     >
        
     </div>
     <div
-      class="ColorGridRow__Shader-sc-52zaxc-0 bYkApT"
+      class="sc-bdvvtL brgbQE"
     >
        
     </div>
     <div
-      class="ColorGridRow__Shader-sc-52zaxc-0 kXVknr"
+      class="sc-bdvvtL iALeAY"
     >
        
     </div>
     <div
-      class="ColorGridRow__Shader-sc-52zaxc-0 fMznbK"
+      class="sc-bdvvtL bDyhHd"
     >
        
     </div>
     <div
-      class="ColorGridRow__Shader-sc-52zaxc-0 daaLyq"
+      class="sc-bdvvtL VUXhZ"
     >
        
     </div>

@@ -221,7 +221,6 @@ describe("Button component", () => {
     expect(result).toMatchSnapshot();
     expect(result.childNodes.length).toEqual(2);
     assertIcon(result.childNodes[0]);
-    expect(result.children[0].classList[0]).toMatch(/SpinnerIcon/g);
     expect(result.childNodes[1].textContent).toBe("Please be patient");
   });
 
