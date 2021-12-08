@@ -3,7 +3,7 @@
 exports[`RadioInput component should be able to disable 1`] = `
 <div>
   <input
-    class="RadioInput__StyledInput-sc-jjc4eq-0 eeUXAV"
+    class="sc-bdvvtL jwWxcW"
     data-testid="test-radio"
     disabled=""
     id="radio-input-1"
@@ -12,7 +12,7 @@ exports[`RadioInput component should be able to disable 1`] = `
     value="formValue"
   />
   <label
-    class="RadioInput__StyledLabel-sc-jjc4eq-1 RadioInput__DisabledLabel-sc-jjc4eq-2 ljjYLs dpCDXv"
+    class="sc-gsDKAQ sc-dkPtRN ctGiWD dHMkls"
     for="radio-input-1"
     id="radio-input-1-label"
   >
@@ -23,7 +23,7 @@ exports[`RadioInput component should be able to disable 1`] = `
 
 exports[`RadioInput component should render a RadioInput component, passing all extra properties to the input element 1`] = `
 <input
-  class="RadioInput__StyledInput-sc-jjc4eq-0 eeUXAV"
+  class="sc-bdvvtL jwWxcW"
   data-testid="test-radio"
   id="radio-input-1"
   name="radioFormName"

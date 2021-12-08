@@ -2,7 +2,7 @@
 
 exports[`TextInput Component should render default text input with no children 1`] = `
 <input
-  class="TextInput__defaultTextInput-sc-qqk5wt-0 keBmkK"
+  class="sc-dkPtRN icdANr"
   data-testid="text-input-component"
   id="TextInputId"
   name="TextInputName"
@@ -13,7 +13,7 @@ exports[`TextInput Component should render default text input with no children 1
 
 exports[`TextInput Component should render text input with children components 1`] = `
 <input
-  class="TextInput__defaultTextInput-sc-qqk5wt-0 keBmkK"
+  class="sc-dkPtRN icdANr"
   data-testid="text-input-component"
   id="TextInputId"
   name="TextInputName"
@@ -43,7 +43,7 @@ exports[`TextInput Component should render text input with children components 2
 
 exports[`TextInput Component should render text input with children components 3`] = `
 <span
-  class="HelperText__defaultHelperText-sc-4k037i-0 gIFihb"
+  class="sc-bdvvtL cGBAKA"
   data-testid="helper-text-component-test"
 >
   Help text goes here
@@ -52,12 +52,12 @@ exports[`TextInput Component should render text input with children components 3
 
 exports[`TextInput Component should render text input with error 1`] = `
 <div
-  class="TextInput___StyledDiv6-sc-qqk5wt-9 kLbAnK"
+  css="[object Object]"
   data-testid="error-test-id"
 >
   <svg
     aria-hidden="true"
-    class="TextInput___StyledExclamationCircleIcon-sc-qqk5wt-10 jLFXnf"
+    css="[object Object]"
     fill="currentColor"
     viewBox="0 0 20 20"
     xmlns="http://www.w3.org/2000/svg"
@@ -106,12 +106,12 @@ exports[`TextInput Component should render text input with left icon and right i
 
 exports[`TextInput Component should render text input with success validation 1`] = `
 <div
-  class="TextInput___StyledDiv7-sc-qqk5wt-11 lhKHte"
+  css="[object Object]"
   data-testid="success-test-id"
 >
   <svg
     aria-hidden="true"
-    class="TextInput___StyledCheckCircleIcon-sc-qqk5wt-12 cKHkQF"
+    css="[object Object]"
     fill="currentColor"
     viewBox="0 0 20 20"
     xmlns="http://www.w3.org/2000/svg"

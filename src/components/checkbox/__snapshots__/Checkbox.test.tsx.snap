@@ -3,14 +3,14 @@
 exports[`Checkbox component should be able to disable 1`] = `
 <div>
   <div
-    class="CheckboxStyles__OuterWrapper-sc-aqujzc-7 jRyxFJ"
+    class="sc-iCfMLu hqxfSB"
   >
     <div
-      class="CheckboxStyles__InputWrapper-sc-aqujzc-8 bvhStc"
+      class="sc-furwcr iuZtmL"
     >
       <input
         aria-describedby="checkbox-1-description"
-        class="CheckboxStyles__Input-sc-aqujzc-0 dEjBNa"
+        class="sc-bdvvtL hNbpzH"
         data-testid="test-checkbox"
         disabled=""
         id="checkbox-1"
@@ -18,17 +18,17 @@ exports[`Checkbox component should be able to disable 1`] = `
       />
     </div>
     <div
-      class="CheckboxStyles__LabelWrapper-sc-aqujzc-9 jWIUAF"
+      class="sc-pVTFL EWVqI"
     >
       <label
-        class="CheckboxStyles__BaseLabel-sc-aqujzc-1 CheckboxStyles__DisabledLabel-sc-aqujzc-3 bZiBFj bmMbNb"
+        class="sc-gsDKAQ sc-hKwDye iTQrPj gLBWHH"
         for="checkbox-1"
         id="checkbox-1-label"
       >
         Checkbox Label
       </label>
       <p
-        class="CheckboxStyles__BaseDescription-sc-aqujzc-4 CheckboxStyles__DisabledDescription-sc-aqujzc-6 daQPnZ ctqRKF"
+        class="sc-eCImPb sc-gKclnd hihGzD egGlih"
         id="checkbox-1-description"
       >
         Checkbox Description
@@ -40,7 +40,7 @@ exports[`Checkbox component should be able to disable 1`] = `
 
 exports[`Checkbox component should render a checkbox component, passing all extra properties to the input element 1`] = `
 <input
-  class="CheckboxStyles__Input-sc-aqujzc-0 dEjBNa"
+  class="sc-bdvvtL hNbpzH"
   data-testid="test-checkbox"
   id="checkbox-1"
   type="checkbox"
@@ -49,7 +49,7 @@ exports[`Checkbox component should render a checkbox component, passing all extr
 
 exports[`Checkbox component should render a description if specified 1`] = `
 <p
-  class="CheckboxStyles__BaseDescription-sc-aqujzc-4 CheckboxStyles__EnabledDescription-sc-aqujzc-5 daQPnZ dRiAmE"
+  class="sc-eCImPb sc-jRQBWg hihGzD bXyiI"
   id="test-checkbox-description"
 >
   Checkbox Description
@@ -58,7 +58,7 @@ exports[`Checkbox component should render a description if specified 1`] = `
 
 exports[`Checkbox component should render a label for the input 1`] = `
 <label
-  class="CheckboxStyles__BaseLabel-sc-aqujzc-1 CheckboxStyles__EnabledLabel-sc-aqujzc-2 bZiBFj ckblbH"
+  class="sc-gsDKAQ sc-dkPtRN iTQrPj BayBM"
   for="test-checkbox"
   id="test-checkbox-label"
 >
