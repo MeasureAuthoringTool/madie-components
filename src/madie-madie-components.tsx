@@ -10,6 +10,11 @@ export { default as CheckboxList } from "./components/checkbox/CheckboxList";
 export { default as TextInput } from "./components/inputs/TextInput";
 export { default as Label } from "./components/labels/Label";
 export { default as HelperText } from "./components/helperText/HelperText";
+export {
+  default as Dropdown,
+  DropdownOption,
+} from "./components/dropdown/Dropdown";
+// export { default as DropdownOption } from "./components/dropdown/DropdownOption";
 
 const lifecycles = singleSpaReact<void>({
   React,
