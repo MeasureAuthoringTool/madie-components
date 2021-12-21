@@ -38,6 +38,7 @@ export default function Dropdown({
   children,
   defaultValue = null,
   placeholder = "Select an option",
+  ...props
 }: DropdownPropsType) {
   const [selected, setSelected] = useState(defaultValue);
   const [selectedChild, setSelectedChild] = useState(null);
@@ -57,15 +58,18 @@ export default function Dropdown({
     }
   }, [defaultValue, children]);
 
+  useEffect(() => {
+    const selectedChild: any = React.Children.toArray(children).find(
+      (child: JSX.Element) => child.props.value === getState()
+    );
+    setSelectedChild(selectedChild?.props.children);
+  }, [children, getState]);
+
   const handleChange = (value) => {
     if (onChange) {
       onChange(value);
     }
     setSelected(value);
-    const selectedChild: any = React.Children.toArray(children).find(
-      (child: JSX.Element) => child.props.value === value
-    );
-    setSelectedChild(selectedChild?.props.children);
   };
 
   return (
@@ -74,7 +78,7 @@ export default function Dropdown({
         if (child?.type === Label) return child;
       })}
       <WrapperDiv>
-        <Listbox value={getState()} onChange={handleChange}>
+        <Listbox value={getState()} onChange={handleChange} {...props}>
           {({ open }) => (
             <ListboxDiv>
               <ListboxButton>
@@ -114,7 +118,7 @@ export default function Dropdown({
 
 const ListboxOption = tw(
   Listbox.Option
-)`cursor-default select-none relative  text-gray-900`;
+)`cursor-default select-none relative text-gray-900`;
 const OptionWrapper = tw.div`font-normal w-full h-full p-2 block truncate hover:bg-gray-50`;
 const SelectedOptionDiv = tw.div`font-normal w-full h-full p-2 block truncate bg-gray-100`;
 
