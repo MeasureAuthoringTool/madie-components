@@ -6,6 +6,7 @@ import {
 } from "@testing-library/react";
 import Dropdown, { DropdownOption } from "./Dropdown";
 import userEvent from "@testing-library/user-event";
+import { HelperText, Label } from "../../madie-madie-components";
 
 describe("Dropdown Component", () => {
   test("that the dropdown renders", async () => {
@@ -20,6 +21,73 @@ describe("Dropdown Component", () => {
 
     const content = await screen.findByText("Select an option");
     expect(content).toBeInTheDocument();
+  });
+
+  test("that the dropdown renders a child label", async () => {
+    const value = { id: 123, name: "test obj" };
+    render(
+      <Dropdown>
+        <Label text="Test Dropdown" />
+        <DropdownOption value={value}>
+          <span>Content here</span>
+        </DropdownOption>
+      </Dropdown>
+    );
+
+    const content = await screen.findByText("Select an option");
+    expect(content).toBeInTheDocument();
+    const label = screen.getByText("Test Dropdown");
+    expect(label).toBeInTheDocument();
+  });
+
+  test("that the dropdown renders a child helper text", async () => {
+    const value = { id: 123, name: "test obj" };
+    render(
+      <Dropdown>
+        <DropdownOption value={value}>
+          <span>First Item</span>
+          <span>Second Item</span>
+        </DropdownOption>
+        <HelperText text={"Dropdown is required"} isError={true} />
+      </Dropdown>
+    );
+
+    const content = await screen.findByText("Select an option");
+    expect(content).toBeInTheDocument();
+    const helperText = screen.getByText("Dropdown is required");
+    expect(helperText).toBeInTheDocument();
+  });
+
+  test("that the dropdown renders children helper text, labels, and options", async () => {
+    const value = { id: 123, name: "test obj" };
+    render(
+      <Dropdown>
+        <Label text="Test Dropdown" />
+        <DropdownOption value={value}>
+          <span>First Item</span>
+          <span>Second Item</span>
+        </DropdownOption>
+        <HelperText text={"Dropdown is required"} isError={true} />
+      </Dropdown>
+    );
+
+    const content = await screen.findByText("Select an option");
+    expect(content).toBeInTheDocument();
+    const label = screen.getByText("Test Dropdown");
+    expect(label).toBeInTheDocument();
+    const helperText = screen.getByText("Dropdown is required");
+    expect(helperText).toBeInTheDocument();
+    const button = screen.getByRole("button");
+    userEvent.click(button);
+    const firstItem = await screen.findByText("First Item");
+    expect(firstItem).toBeInTheDocument();
+    const secondItem = screen.getByText("Second Item");
+    expect(secondItem).toBeInTheDocument();
+    const list = screen.getByRole("option");
+    expect(list).toHaveTextContent(/first item/i);
+    expect(list).toHaveTextContent(/second item/i);
+    expect(list).not.toHaveTextContent(/required/i);
+    expect(list).not.toHaveTextContent(/test dropdown/i);
   });
 
   test("that the dropdown renders with custom placeholder", async () => {
@@ -107,27 +175,26 @@ describe("Dropdown Component", () => {
     const changeHandler = jest.fn();
     render(
       <Dropdown
-        placeholder="Custom placeholder"
+        placeholder="Pick something"
         value={null}
         onChange={changeHandler}
       >
-        <DropdownOption value="First">First Item</DropdownOption>
-        <DropdownOption value="Second">Second Item</DropdownOption>
-        <DropdownOption value="Third">Third Item</DropdownOption>
+        <DropdownOption value="first">Fhir</DropdownOption>
+        <DropdownOption value="second">QDM</DropdownOption>
+        <DropdownOption value="third">QI-Core</DropdownOption>
       </Dropdown>
     );
 
-    const content = await screen.findByText("Custom placeholder");
+    const content = await screen.findByText("Pick something");
     expect(content).toBeInTheDocument();
     const button = screen.getByRole("button");
     userEvent.click(button);
-    const secondItem = await screen.findByText("Second Item");
-    expect(secondItem).toBeInTheDocument();
+    const secondItem = await screen.findByText("QDM");
     userEvent.click(secondItem);
-    const button2 = await screen.findByRole("button", { name: /second item/i });
+    await waitForElementToBeRemoved(() => screen.queryByText("Fhir"));
+    const button2 = await screen.findByRole("button", { name: /qdm/i });
     expect(button2).toBeInTheDocument();
-    await waitForElementToBeRemoved(() => screen.queryByText("First Item"));
-    expect(changeHandler).toHaveBeenCalledWith("Second");
+    expect(changeHandler).toHaveBeenCalledWith("second");
   });
 
   test("that the dropdown renders the controlled value", async () => {
