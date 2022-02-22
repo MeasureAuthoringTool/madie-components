@@ -94,6 +94,9 @@
     "tailwindcss": "^2.2.19",
     "twin.macro": "^2.8.2"
   },
+  "overrides": {
+    "remark-parse": "^9.0.0"
+  },
   "types": "dist/madie-madie-components.d.ts",
   "browserslist": [
     "defaults",
