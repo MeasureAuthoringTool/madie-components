@@ -45,7 +45,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.4.0",
     "@types/react": "^17.0.39",
-    "@types/react-dom": "^17.0.11",
+    "@types/react-dom": "^18.0.4",
     "@types/styled-components": "^5.1.22",
     "@types/systemjs": "^6.1.1",
     "@types/testing-library__jest-dom": "^5.14.2",
