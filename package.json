@@ -92,7 +92,7 @@
     "single-spa-react": "^4.6.1",
     "system-font-css": "^2.0.2",
     "tailwindcss": "^2.2.19",
-    "twin.macro": "^2.8.2"
+    "twin.macro": "^3.0.0-rc.2"
   },
   "overrides": {
     "remark-parse": "^9.0.0"
